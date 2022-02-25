@@ -5,7 +5,7 @@ copy the below text and put into c:\dkm.txt
 and then run this registry command in command line with admin privilage. 
 reg add "HKLM\Software\Microsoft\Command Processor" /v Autorun /d "doskey /macrofile=c:\dkm.txt /f
 
-##c:/dkm.txt
+## c:/dkm.txt
 ipfshell=forfiles /P C:\Windows\System32\Driverstore\FileRepository /M ipf_uf.exe /s /c "cmd /c taskkill /f /fi \"imagename eq ipf_uf.exe\" /fi \"session eq 1\" & @path client"
 odvp1=forfiles /P C:\Windows\System32\Driverstore\FileRepository /M ipf_uf.exe /s /c "cmd /c taskkill /f /fi \"imagename eq ipf_uf.exe\" /fi \"session eq 1\" & @path client -c \"tableobject set odvp 0 d0 $1!0!0!0!0!0\" -q"
 odvp2=forfiles /P C:\Windows\System32\Driverstore\FileRepository /M ipf_uf.exe /s /c "cmd /c taskkill /f /fi \"imagename eq ipf_uf.exe\" /fi \"session eq 1\" & @path client -c \"tableobject set odvp 0 d0 0!$1!0!0!0!0\" -q"
