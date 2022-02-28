@@ -15,7 +15,9 @@ odvp2=forfiles /P C:\Windows\System32\Driverstore\FileRepository /M ipf_uf.exe /
 ip=ipconfig $B findstr IPv4  
 f=dir /s/b $1  
 http=python -m http.server 80  
-watermark=slmgr /skms kms.intel.com $t slmgr /ipk W269N-WFGWX-YVC9B-4J6C9-T83GX $t slmgr /ato  
+wm1=slmgr /skms kms.intel.com  
+wm2=slmgr /ipk W269N-WFGWX-YVC9B-4J6C9-T83GX
+wm3=slmgr /ato  
 unzip=forfiles /m *.zip /c "cmd /c mkdir @fname & tar -xf @path -C @fname"  
 un7z=forfiles /m *.7z /c "cmd /c 7z e @path -o@fname -y"  
 unzipdir=forfiles /p $1 /m *.zip /c "cmd /c mkdir $1\\@fname & tar -xf @path -C $1\\@fname"   
@@ -25,4 +27,6 @@ remdtt="C:\Program Files\Intel\Intel(R) Dynamic Tuning Technology\Uninstall\inst
 remdttui="C:\Program Files\Intel\Intel(R) Dynamic Tuning Technology User Interface\Uninstall\install.exe" -uninstall -s & timeout 15  
 remipf="C:\Program Files\Intel\Intel(R) Innovation Platform Framework\Uninstall\install.exe" -uninstall -s & timeout 15  
 remipfui="C:\Program Files\Intel\Intel(R) Innovation Platform Framework User Interface\Uninstall\install.exe" -uninstall -s & timeout 15  
+  
+  
 ```
