@@ -76,17 +76,21 @@ Headless shell usage
 
 ## Table Data Set
 
+```
 tableobject set <table_name> <participant_ID> <domain> <revision>:<row1col1data>[[, row1col2data>][, <row1col3data>]...]![<row2col1data>[[, <row2col2data>][, <row2col3data>]]!...]  
 After the revision # and ':', the remaining data is the raw data for the table.  
 The rows are separated by '!' characters, and the columns are separated by ',' characters.  
 Any typo or mistake in this will result in a bad table loading (NO INPUT VALIDATION).  
+```
 
-|command example|explaination|
-|---------------|----|
-|tableobject set odvp 0 d0 0!0!0!0!0!1| set oem var|
-|tableobject set psha 0 D0 01:\_SB_.MCPP,38,0xFFFFFFFF!\_SB_.PCI0.B0D4,9,2!\_SB_.DGFC,36,8!| set BIAS of CPU 20%, Graphics 80%| 
-|tableobject set psha 0 D0 01:\_SB_.MCPP,38,0xFFFFFFFF!\_SB_.PCI0.B0D4,9,5!\_SB_.DGFC,36,5!|set BIAS of CPU 50%, Graphics 50%:| 
-|tableobject get pppcc 46 D0 | 
+|command example|explaination|  
+|---------------|----|  
+|tableobject set odvp 0 d0 0!0!0!0!0!1| set oem var|  |  
+|tableobject set psha 0 D0 01:\_SB_.MCPP,38,0xFFFFFFFF!\_SB_.PCI0.B0D4,9,2!\_SB_.DGFC,36,8!| set BIAS of CPU 20%, Graphics 80%| |  
+|tableobject set psha 0 D0 01:\_SB_.MCPP,38,0xFFFFFFFF!\_SB_.PCI0.B0D4,9,5!\_SB_.DGFC,36,5!|set BIAS of CPU 50%, Graphics 50%:| |  
+|tableobject get pppcc 46 D0 | |  
+
+
 ## power boss related primitive
 
 |Name|Method|Get|Set|Units|
@@ -168,15 +172,16 @@ Dstn DGFC
 
 
 
-## paths
+## paths  
+
 |command|description|
 |--|--|
 |paths| to check all different path|
 
 
-## add participant
-partsK is to see kernel participants
+## add participant  
 
+partsK is to see kernel participants
 participant create ACPI IDG1 "desc"
 
 
