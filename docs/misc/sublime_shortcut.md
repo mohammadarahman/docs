@@ -22,6 +22,7 @@ goto symbol|ctrl+r
 
 
 ### special less frequent editing
+
 description  |  shortcut key
 -------------|---------------
 delete line from cursor to end | ctrl+k -> k
@@ -38,6 +39,6 @@ incremental find | ctrl + i
 
 ### MISC
 
-show space by default
-need to edit user settings
-"draw_white_space": "all" 
+show space by default  
+need to edit user settings  
+"draw_white_space": "all"  
