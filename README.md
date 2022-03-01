@@ -1,6 +1,9 @@
 # Documents
 This is collections of documents for learning and project too. 
 # cheatsheet  
+
+## External link  
+
 [md cheatsheet](https://help.github.com/en/articles/basic-writing-and-formatting-syntax#styling-text)  
 [md Extensions for python](https://github.com/Python-Markdown/markdown/wiki/third-party-extensions)  
 [try md contents](https://stackedit.io/app#)  
@@ -8,13 +11,17 @@ This is collections of documents for learning and project too.
 [mastering md](https://guides.github.com/features/mastering-markdown/)  
 [icons](https://www.webfx.com/tools/emoji-cheat-sheet/)  
 [sublime shortcut](https://www.shortcutfoo.com/app/dojos/sublime-text-3-win/cheatsheet)  
-[my sublimeshortcut](misc/sublime_shortcut.md)  
 [sublime package](https://generalassemb.ly/blog/sublime-text-3-tips-tricks-shortcuts/)  
 [good sample for table](https://markdown-it.github.io/)  
 [Table Generator](https://www.tablesgenerator.com/markdown_tables)  
-[my md tips](mdcheatsheet.md)
+[online cv example](https://github.com/sharu725/online-cv)  
 
 
-# Topics
+## Local link Topics
+
+[my sublimeshortcut](docs/misc/sublime_shortcut.md)  
+[my md tips](docs/misc/mdcheatsheet.md)
+[how to](docs/howto.md)  
+[recipe](docs/recipe.md)  
 [VBA Tutorial](Coding/ExcelVBA/Index.md)  
-[DPTF](DPTF/main.md) 
+[DPTF](docs/dptf.md) 
