@@ -118,7 +118,7 @@ dstn MCP
 |Slow Poll Weighted AveragingConstant|getp 466 D0 255|setp 467 D0 255|
 |Slow Poll Power Threshold|getp 479 D0 255|setp 480 D0 255|
 
-Dstn TCPU
+dstn TCPU
 
 |power share var|get primitive|set premative|
 |---|---|---|
@@ -135,38 +135,37 @@ Dstn DGFC
 |Participant Energy Counter|getp 128 D0 255|Just for Graphics: setp 476 D0 255|
 |Participant Energy Unit|getp 123 D0 255|N/A|
 |Participant Energy Counter Width|getp 475 D0 255|N/A|
-|AC Peak Power| |setp 448 D0 255|
-|DC Peak Power| |setp 452 D0 255|
-|set gfx enegy threshold counter| |setp 453 D0 255|
-|check interrupt fired | |setp 454 D0 255 1|
+|AC Peak Power| |setp 448 D0 255|  
+|DC Peak Power| |setp 452 D0 255|  
+|set gfx enegy threshold counter| |setp 453 D0 255|  
+|check interrupt fired | |setp 454 D0 255 1|  
 
-### Getting data ETW tracing for collecting powershare alg data
+
+### Getting data ETW tracing for collecting powershare alg data  
 
   Launch shell: esif_uf.exe client  
-        Enable DPTF traces: trace module 4 dptf  
-   Set trace route: trace route 4 log  
-        Set trace level: trace level 4  
+  Enable DPTF traces: trace module 4 dptf  
+  Set trace route: trace route 4 log  
+  Set trace level: trace level 4  
 
-## app level command
-|command|description|
-|--|--|
-|appstart dptf| start the DPTF application|
-|appstop dptf|stop DPTF|
-|web start| start webserver|
-|web stop| stop webserver|
+
+## app level command  
+
+|command|description|  
+|--|--|  
+|appstart dptf| start the DPTF application|  
+|appstop dptf|stop DPTF|  
+|web start| start webserver|  
+|web stop| stop webserver|  
 
 
 ## mm command 
+
 |command|Explaination|
 |---|----|
 |mm 66 f3 -w 1 -io|turn off fan for ICL/TGL|
 
 
-
-## mm command 
-|command|Explaination|
-|---|----|
-|mm 66 f3 -w 1 -io|turn off fan for ICL/TGL|
 
 
 ## paths
@@ -181,7 +180,6 @@ partsK is to see kernel participants
 participant create ACPI IDG1 "desc"
 
 
-
 ## help
 
 |command|description|
@@ -190,5 +188,5 @@ participant create ACPI IDG1 "desc"
 |actionsk|all kenel|
 |actionsu|all user|
 |devices <action> | alldevice by UPE|
-|event [enable|disable] <eventType> [participant] [domin] | enable disable send event. |
-	selene.alvarado.legaria@intel.com
+|event [enable/disable] <eventType> [participant] [domain] | enable disable send event. |
+
