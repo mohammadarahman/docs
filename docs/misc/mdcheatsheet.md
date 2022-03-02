@@ -127,6 +127,28 @@ A blue and bold paragraph.
 
 test{: .blue}  
 
+	🔴 red: +5V  
+	🟠 orange: +3.3V  
+	⚫ black: ground  
+	⚪ white: ground (pull-down)  
+	🟣 purple: I2C signal  
+	🟢 green: clock signal  
+	🟡 yellow: WS2812 signal  
+	🔵 blue: resistor bridge (analogue) input  
+
+🔴 red: +5V  
+🟠 orange: +3.3V  
+⚫ black: ground  
+⚪ white: ground (pull-down)  
+🟣 purple: I2C signal  
+🟢 green: clock signal  
+🟡 yellow: WS2812 signal  
+🔵 blue: resistor bridge (analogue) input  
+
+
+
+
+
 ## html contents
 ```
 |&copy;  |&uml; |&trade;|&iexcl; |&pound;|&amp;   |&lt;    |&gt;   |&yen;   |&euro; |&reg;    |&plusmn;|&para;| 
