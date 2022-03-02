@@ -96,7 +96,18 @@ a|b
 |-|-|
 |1|2|
 
+## html scripting 
+```<style
+  type="text/css">
+h1 {color:red;}
 
+p {color:blue;}
+</style>
+okay
+```
+# head 1 test 
+
+p test after color 
 
 
 ## html contents
