@@ -295,8 +295,14 @@ Note right of John: Bob thinks a long<br/>long time, so long<br/>that the text d
 
 Bob-->Alice: Checking with John...
 Alice->John: Yes... John, how are you?
-```
+```  
 
+```mermaid!
+pie title Pets adopted by volunteers
+  "Dogs" : 386
+  "Cats" : 85
+  "Rats" : 35
+```
 
 
 
@@ -313,5 +319,7 @@ Alice->John: Yes... John, how are you?
 [mermaid live](https://mermaid.live/edit) 
 [Markdown Live Preview](https://markdownlivepreview.com/)  
 [browser extension for mermaid](https://github.com/BackMarket/github-mermaid-extension)  
+[mermaid](https://mermaid-js.github.io/mermaid/)  
+
 ### End
 
