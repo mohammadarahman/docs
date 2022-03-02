@@ -116,7 +116,16 @@ above color test failed
 	**My Bold Text, in red color.**{: style="color: red; opacity: 0.80;" }  
   
 **My Bold Text, in red color.**{: style="color: red; opacity: 0.80;" }  
+  
+	A blue and bold paragraph.  
+	{: .blue .bold}  
 
+A blue and bold paragraph.  
+{: .blue .bold}  
+
+	test{: .blue}  
+
+test{: .blue}  
 
 ## html contents
 ```
