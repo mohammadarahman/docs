@@ -91,10 +91,10 @@ This web site is using `markedjs/marked`.
 |&copy;  |&uml; |&trade;|&iexcl; |&pound;|&amp;   |&lt;    |&gt;   |&yen;   |&euro; |&reg;    |&plusmn;|&para;| 
 |&brvbar;|&macr;|&laquo;|&middot;|X&sup2;|&frac34;|&frac14;|&times;|&divide;|&raquo;|15&ordm;C|&sect;  |      | 
 ```
-|&copy;  |&uml; |&trade;|&iexcl; |&pound;|&amp;   |&lt;    |&gt;   |&yen;   |&euro; |&reg;    |&plusmn;|&para;| 
-|--------|------|-------|--------|-------|--------|--------|-------|--------|-------|---------|-------|--------|  
-|&brvbar;|&macr;|&laquo;|&middot;|X&sup2;|&frac34;|&frac14;|&times;|&divide;|&raquo;|15&ordm;C|&sect; |    |  
 
+|&copy;  |&uml; |&trade;|&iexcl; |&pound;|&amp;   |&lt;    |&gt;   |&yen;   |&euro; |&reg;    |&plusmn;|&para; |
+|--------|------|-------|--------|-------|--------|--------|-------|--------|-------|---------|-------|--------|
+|&brvbar;|&macr;|&laquo;|&middot;|X&sup2;|&frac34;|&frac14;|&times;|&divide;|&raquo;|15&ordm;C|&sect; |        |
 
 
 ## Escaping for Special Characters
@@ -175,9 +175,7 @@ puts "This is #{this}"
 ``` javascript 
 console.log('Code Tab A');
 ```
-```javascript I'm tab B
-console.log('Code Tab B');
-```
+
 
 ## Add Image
 ![Image of Yaktocat](https://octodex.github.com/images/yaktocat.png)  
