@@ -113,9 +113,9 @@ above color test failed
 
 <span style="color:red">some **blue** text</span>  
   
-	**My Bold Text, in red color.**{: style="color: red; opacity: 0.80;" }  
+	**My Bold Text, in red color.**{: style="color: red; opacity: 0.50;" }  
   
-**My Bold Text, in red color.**{: style="color: red; opacity: 0.80;" }  
+**My Bold Text, in red color.**{: style="color: red; opacity: 0.50;" }  
   
 	A blue and bold paragraph.  
 	{: .blue .bold}  
@@ -127,11 +127,9 @@ A blue and bold paragraph.
 
 test{: .blue}  
 
-	test  
-	{: style="color: red;}  
+	test{: style="color: red;}  
 
-test
-{: style="color: red;}  
+test{: style="color: red;}  
 
 
 	🔴 red: +5V  
