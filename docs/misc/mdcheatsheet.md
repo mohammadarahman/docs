@@ -41,9 +41,6 @@
 `![This is a alt text.](/image/sample.png "This is a sample image.")`  
 ![This is a alt text.](/image/sample.png "This is a sample image.")
 
-## Links
-`[Markdown Live Preview](https://markdownlivepreview.com/)`  
-[Markdown Live Preview](https://markdownlivepreview.com/).
 
 ## Blockquotes
 `>`  
@@ -278,13 +275,29 @@ console.log('Code Tab A');
 
 :+1: :heart:  
 
+## mermaid test  
+```mermaid
+graph LR
+A[Square Rect] -- Link text --> B((Circle))
+A --> C(Round Rect)
+B --> D{Rhombus}
+C --> D
+D --> E
+```
+
 
 ## Add Image
 ![Image of Yaktocat](https://octodex.github.com/images/yaktocat.png)  
 [![IMAGE ALT TEXT HERE](http://img.youtube.com/vi/YOUTUBE_VIDEO_ID_HERE/0.jpg)](http://www.youtube.com/watch?v=YOUTUBE_VIDEO_ID_HERE)  
 
-[emoji](https://www.webfx.com/tools/emoji-cheat-sheet/)
 
+## links to learn more  
 
+[emoji](https://www.webfx.com/tools/emoji-cheat-sheet/)  
+[markdown editor](https://jbt.github.io/markdown-editor/}  
+[advance markdown](https://stackedit.io/app#}  
+[mermaid live](https://mermaid.live/edit) 
+[Markdown Live Preview](https://markdownlivepreview.com/)  
+[browser extension for mermaid](https://github.com/BackMarket/github-mermaid-extension)  
 ### End
 
