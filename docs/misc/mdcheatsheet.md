@@ -25,8 +25,8 @@
 1. a   
 1. b   
 1. c   
-  1. d   
-  1. e 
+	1. d tab needed in the begining here
+	1. e 2 space in the end is not must. 
 ``` 
   
 1. a
@@ -107,8 +107,11 @@ okay
 ```
 # head 1 test 
 
-p test after color 
+above color test failed   
 
+	<span style="color:red">some **blue** text</span>  
+
+<span style="color:red">some **blue** text</span>
 
 ## html contents
 ```
