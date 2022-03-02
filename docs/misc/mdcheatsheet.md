@@ -231,6 +231,8 @@ $$\sin(\alpha)^{\theta}=\sum_{i=0}^{n}(x^i + \cos(f))$$
 <img src="https://render.githubusercontent.com/render/math?math=E=mc^2">  
 <img src="https://render.githubusercontent.com/render/math?math=sin(\alpha)^{\theta}=\sum_{i=0}^{n}(x^i + \cos(f))">
 <img src="https://render.githubusercontent.com/render/math?math=\(\sqrt{3x-1}+(1+x)^2\)">  
+![formula](https://render.githubusercontent.com/render/math?math=\sqrt{ab})
+use this : https://md-math.netlify.app/
 ```
 [help link](https://gist.github.com/a-rodin/fef3f543412d6e1ec5b6cf55bf197d7b)  
 $$E=mc^2$$  
@@ -241,7 +243,7 @@ $$\sin(\alpha)^{\theta}=\sum_{i=0}^{n}(x^i + \cos(f))$$
 <img src="https://render.githubusercontent.com/render/math?math=E=mc^2">  
 <img src="https://render.githubusercontent.com/render/math?math=sin(\alpha)^{\theta}=\sum_{i=0}^{n}(x^i + \cos(f))">  
 <img src="https://render.githubusercontent.com/render/math?math=\(\sqrt{3x-1}+(1+x)^2\)">  
-
+![formula](https://render.githubusercontent.com/render/math?math=\sqrt{ab})
   
 ### FlowChart
 
@@ -319,12 +321,13 @@ Vehicle <|-- Car
 ## links to learn more  
 
 [emoji](https://www.webfx.com/tools/emoji-cheat-sheet/)  
-[markdown editor](https://jbt.github.io/markdown-editor/}  
-[advance markdown](https://stackedit.io/app#}  
-[mermaid live](https://mermaid.live/edit) 
+[markdown editor](https://jbt.github.io/markdown-editor/)  
+[advance markdown](https://stackedit.io/app#)  
+[mermaid live](https://mermaid.live/edit)  
 [Markdown Live Preview](https://markdownlivepreview.com/)  
 [browser extension for mermaid](https://github.com/BackMarket/github-mermaid-extension)  
 [mermaid](https://mermaid-js.github.io/mermaid/)  
+[math equation](https://mohammadarahman.github.io/docs/misc/mdcheatsheet.html)  
 
 ### End
 
