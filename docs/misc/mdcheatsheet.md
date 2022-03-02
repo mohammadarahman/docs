@@ -32,8 +32,8 @@
 1. a
 1. b 
 1. c
-  1. d
-  1. ef
+	1. d
+	1. ef
 
 
 ## Images
@@ -63,14 +63,16 @@ now using tab below:  tab is equivalent to \`\`\`
 
 
 ## Tables
-```
-notice the : for allignment. 
-| Left columns  | Right columns |
-| -:|:-:|
-| left foo      | right foo     |
-| left bar      | right bar     |
-| left baz      | right baz     |
-```
+	
+	notice the : for allignment. 
+	| Left columns  | Right columns |
+	| -:|:-:|
+	| left foo      | right foo     |
+	| left bar      | right bar     |
+	| left baz      | right baz     |
+ 
+
+  
 newline before the first row of the table is must to show the table properly.  
 double space at the end will ensure the new line.  
 [more details on table and more ](https://github.github.com/gfm/#task-list-items-extension-)  
