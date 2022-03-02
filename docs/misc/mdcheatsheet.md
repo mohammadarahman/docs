@@ -299,15 +299,15 @@ Alice->John: Yes... John, how are you?
 
 ```mermaid
 pie title Pets adopted by volunteers
-  "Dogs" : 386
-  "Cats" : 85
-  "Rats" : 35
+"Dogs" : 386
+"Cats" : 85
+"Rats" : 35
 ```  
 
 ```mermaid
 classDiagram
-    class Animal
-    Vehicle <|-- Car
+class Animal
+Vehicle <|-- Car
 ```
 
 
