@@ -28,11 +28,12 @@
   1. d   
   1. e 
 ``` 
-1. a
-1. b
-1. c
-  1. d
-  1. e
+  
+1. a  
+1. b  
+1. c  
+  1. d  
+  1. e  
 
 ## Images
 
@@ -59,15 +60,18 @@ notice the : for allignment.
 | left bar      | right bar     |
 | left baz      | right baz     |
 ```
-newline before the first row of the table is must to show the table properly. 
+newline before the first row of the table is must to show the table properly.  
 double space at the end will ensure the new line.  
+[more details on table and more ](https://github.github.com/gfm/#task-list-items-extension-)  
   
+
 | Left columns  | Right columns |
 | -:|:-:|
 | left foo      | right foo     |
 | left bar      | right bar     |
 | left baz      | right baz     |
-
+  
+  
 ```
 simple example
 a|b  
