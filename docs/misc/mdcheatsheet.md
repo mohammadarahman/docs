@@ -297,7 +297,7 @@ Bob-->Alice: Checking with John...
 Alice->John: Yes... John, how are you?
 ```  
 
-```mermaid!
+```mermaid
 pie title Pets adopted by volunteers
   "Dogs" : 386
   "Cats" : 85
