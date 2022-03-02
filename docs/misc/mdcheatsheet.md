@@ -59,6 +59,7 @@ notice the : for allignment.
 | left bar      | right bar     |
 | left baz      | right baz     |
 ```
+
 | Left columns  | Right columns |
 | -:|:-:|
 | left foo      | right foo     |
@@ -71,9 +72,16 @@ a|b
 -|-
 1|2
 ```
+
 |a|b|
 |-|-|
 |1|2|
+
+
+c|d
+-|-
+3|4
+5|6
 
 
 ## html contents
