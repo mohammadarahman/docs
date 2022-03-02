@@ -1,97 +1,100 @@
-  -  double space to create bullet 
-  -  __bold__ double underscore **bold** double star
-  - `highlight` 
+## simple common formating  
 
-  - Table creation
-  - need a header row
-  - and colon can decide whether right aligned or lef or center (two colon)
+`<strike>stike</strike>` → <strike>stike</strike>  
+`<del>strile</del>` → <del>strile</del>  
+`<s>strike</s>` → <s>strike</s>  
+`~~strike~~` → ~~strike~~  
+`~strike~` → ~strike~  
+`**bold**`-> **bold**  
+`__bold__` -> __bold__  
+`*italic*` -> *italic*  
+`***italic***` -> ***bold italic***  
 
+## list `- a` or `* b`
+- a 
+* b 
+- c  
 
-<strike>stike</strike> → strike
-<del>strile</del> → strike
-<s>strike</s> → strike
-~~strike~~ → ~~strike~~
-~strike~ → ~strike~
-
-
-
-
-# Example of staffs 
-
-
-### Lists
-
-#### Unordered list (-)
-
-- Item A
-- Item B
-- Item C
-
-#### Unordered list 
-
-* Item A
-* Item B
-* Item C  
+# This is a Heading h1
+## This is a Heading h2  (has underline no underline after h2)
+###### This is a Heading h6 (is the last header)
 
 
-#### Unordered list (plus sign and nested)
+### Ordered list
+```
+1. a   
+1. b   
+1. c   
+  1. d   
+  1. e 
+``` 
+1. a
+1. b
+1. c
+  1. d
+  1. e
 
-+ Item A
-+ Item B
-    + Item B 1
-    + Item B 2
-    + Item B 3
-+ Item C
-    * Item C 1
-    * Item C 2
-    * Item C 3
+## Images
 
-#### Ordered list
+`![This is a alt text.](/image/sample.png "This is a sample image.")`  
+![This is a alt text.](/image/sample.png "This is a sample image.")
 
-1. Item A
-2. Item B
-3. Item C
+## Links
+`[Markdown Live Preview](https://markdownlivepreview.com/)`  
+[Markdown Live Preview](https://markdownlivepreview.com/).
 
+## Blockquotes
+`>`  
+`>>`
+> Markdown is a lightweight markup language with plain-text-formatting syntax, created in 2004 by John Gruber with Aaron Swartz.
+>
+>> Markdown is often used to format readme files, for writing messages in online discussion forums, and to create rich text using a plain text editor.
 
-### Tables
+## Tables
+```
+notice the : for allignment. 
+| Left columns  | Right columns |
+| -:|:-:|
+| left foo      | right foo     |
+| left bar      | right bar     |
+| left baz      | right baz     |
+```
+| Left columns  | Right columns |  
+| -:|:-:|  
+| left foo      | right foo     |  
+| left bar      | right bar     |  
+| left baz      | right baz     |  
 
+```
+simple example
+a|b  
+-|-
+1|2
+```
+a|b  
+-|-
+1|2  
 
-First Header  | Second Header
-------------- | -------------
-Content Cell  | Content Cell
-Content Cell  | Content Cell 
+## Blocks of code
 
-| First Header  | Second Header |
-| ------------- | ------------- |
-| Content Cell  | Content Cell  |
-| Content Cell  | Content Cell  |
+```
+let message = 'Hello world';
+alert(message);
+```
 
-| Function name | Description                    |
-| ------------- | ------------------------------ |
-| `help()`      | Display the help window.       |
-| `destroy()`   | **Destroy your computer!**     |
+## Inline code
 
-| Item      | Value |
-| --------- | -----:|
-| Computer  | $1600 |
-| Phone     |   $12 |
-| Pipe      |    $1 |
+This web site is using `markedjs/marked`.
 
-| Left-Aligned  | Center Aligned  | Right Aligned |
-| :------------ |:---------------:| -----:|
-| col 3 is      | some wordy text | $1600 |
-| col 2 is      | centered        |   $12 |
-| zebra stripes | are neat        |    $1 |
-                
-----
+## html contents
+```
+|&copy;  |&uml; |&trade;|&iexcl; |&pound;|&amp;   |&lt;    |&gt;   |&yen;   |&euro; |&reg;    |&plusmn;|&para;| 
+|&brvbar;|&macr;|&laquo;|&middot;|X&sup2;|&frac34;|&frac14;|&times;|&divide;|&raquo;|15&ordm;C|&sect;  |      | 
+```
+|&copy;  |&uml; |&trade;|&iexcl; |&pound;|&amp;   |&lt;    |&gt;   |&yen;   |&euro; |&reg;    |&plusmn;|&para;| 
+|--------|------|-------|--------|-------|--------|--------|-------|--------|-------|---------|-------|--------|  
+|&brvbar;|&macr;|&laquo;|&middot;|X&sup2;|&frac34;|&frac14;|&times;|&divide;|&raquo;|15&ordm;C|&sect; |    |  
 
-#### HTML entities
-
-
-
-|&copy;|&uml;|&trade;|&iexcl;|&pound;|&amp;|&lt;|&gt;|&yen;|&euro;|&reg;|&plusmn;|&para;| 
-|---|---|---|--|---|---|---|---|---|---|---|---|---|---|---|---|---|---|---|---|---|---|---|---|---| 
-|&brvbar;|&macr;|&laquo;|&middot;|X&sup2;|&frac34;|&frac14;|&times;|&divide;|&raquo;|15&ordm;C|&sect;| 
 
 
 ## Escaping for Special Characters
@@ -100,42 +103,51 @@ Content Cell  | Content Cell
 
 ## Markdown extras
 
-### GFM task list
+## GFM task list
+```
+- [x] a
+- [x] b
+- [ ] c
+    - [ ] c1
+    - [ ] c2
+    - [ ] c3
+- [ ] d
+    - [ ] d1
+    - [ ] d2
+```
+- [x] a
+- [x] b
+- [ ] c
+    - [ ] c1
+    - [ ] c2
+    - [ ] c3
+- [ ] d
+    - [ ] d1
+    - [ ] d2
 
-- [x] GFM task list 1
-- [x] GFM task list 2
-- [ ] GFM task list 3
-    - [ ] GFM task list 3-1
-    - [ ] GFM task list 3-2
-    - [ ] GFM task list 3-3
-- [ ] GFM task list 4
-    - [ ] GFM task list 4-1
-    - [ ] GFM task list 4-2
 
-### Emoji mixed :smiley:
+## TeX(LaTeX)
 
-> Blockquotes :star:
+```
+$$E=mc^2$$  
+Inline $$E=mc^2$$ Inline 
+$$\(\sqrt{3x-1}+(1+x)^2\)$$  
+$$\sin(\alpha)^{\theta}=\sum_{i=0}^{n}(x^i + \cos(f))$$  
+<img src="https://render.githubusercontent.com/render/math?math=E=mc^2">  
+<img src="https://render.githubusercontent.com/render/math?math=sin(\alpha)^{\theta}=\sum_{i=0}^{n}(x^i + \cos(f))">
+<img src="https://render.githubusercontent.com/render/math?math=\(\sqrt{3x-1}+(1+x)^2\)">  
+```
+[help link](https://gist.github.com/a-rodin/fef3f543412d6e1ec5b6cf55bf197d7b)  
+$$E=mc^2$$  
+Inline $$E=mc^2$$ Inline，
+Inline $$E=mc^2$$ Inline。
+$$\(\sqrt{3x-1}+(1+x)^2\)$$  
+$$\sin(\alpha)^{\theta}=\sum_{i=0}^{n}(x^i + \cos(f))$$  
+<img src="https://render.githubusercontent.com/render/math?math=E=mc^2">  
+<img src="https://render.githubusercontent.com/render/math?math=sin(\alpha)^{\theta}=\sum_{i=0}^{n}(x^i + \cos(f))">  
+<img src="https://render.githubusercontent.com/render/math?math=\(\sqrt{3x-1}+(1+x)^2\)">  
 
-#### GFM task lists & Emoji & fontAwesome icon emoji & editormd logo emoji :editormd-logo-5x:
-
-- [x] :smiley: @mentions, :smiley: #refs, [links](), **formatting**, and <del>tags</del> supported :editormd-logo:;
-- [x] list syntax required (any unordered or ordered list supported) :editormd-logo-3x:;
-- [x] [ ] :smiley: this is a complete item :smiley:;
-- [ ] []this is an incomplete item [test link](#) :fa-star: @pandao; 
-- [ ] [ ]this is an incomplete item :fa-star: :fa-gear:;
-    - [ ] :smiley: this is an incomplete item [test link](#) :fa-star: :fa-gear:;
-    - [ ] :smiley: this is  :fa-star: :fa-gear: an incomplete item [test link](#);
-            
-### TeX(LaTeX)
-   
-$$E=mc^2$$
-
-Inline $$E=mc^2$$ Inline，Inline $$E=mc^2$$ Inline。
-
-$$\(\sqrt{3x-1}+(1+x)^2\)$$
-                    
-$$\sin(\alpha)^{\theta}=\sum_{i=0}^{n}(x^i + \cos(f))$$
-                
+  
 ### FlowChart
 
 ```flow
@@ -149,21 +161,27 @@ cond(yes)->e
 cond(no)->op
 ```
 
-### Sequence Diagram
-                    
-```seq
-Andrew->China: Says Hello 
-Note right of China: China thinks\nabout it 
-China-->Andrew: How are you? 
-Andrew->>China: I am good thanks!
+## code block  
+
+```python
+if(x):
+  print("this is x")
+```  
+
+``` ruby 
+this = "Ruby Code"
+puts "This is #{this}"
+```  
+``` javascript 
+console.log('Code Tab A');
 ```
-
-
+```javascript I'm tab B
+console.log('Code Tab B');
+```
 
 ## Add Image
 ![Image of Yaktocat](https://octodex.github.com/images/yaktocat.png)  
 [![IMAGE ALT TEXT HERE](http://img.youtube.com/vi/YOUTUBE_VIDEO_ID_HERE/0.jpg)](http://www.youtube.com/watch?v=YOUTUBE_VIDEO_ID_HERE)  
-
 
 
 
