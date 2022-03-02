@@ -127,6 +127,13 @@ A blue and bold paragraph.
 
 test{: .blue}  
 
+	test  
+	{: style="color: red;}  
+
+test
+{: style="color: red;}  
+
+
 	🔴 red: +5V  
 	🟠 orange: +3.3V  
 	⚫ black: ground  
@@ -145,8 +152,38 @@ test{: .blue}
 🟡 yellow: WS2812 signal  
 🔵 blue: resistor bridge (analogue) input  
 
+	<style>
+	.green {
+	color: green;
+	font-weight:700;
+	font-size: 30px;
+	}
+	</style>
+	<div class="green">
+		Markdown css styles
+	</div>  
+
+<style>
+.green {
+    color: green;
+    font-weight:700;
+    font-size: 30px;
+}
+</style>
+
+<div class="green">
+    Markdown css styles
+</div>
 
 
+## HR
+	___  
+	---  
+	***  
+
+___
+---
+***
 
 
 ## html contents
