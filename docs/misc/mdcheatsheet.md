@@ -59,7 +59,9 @@ notice the : for allignment.
 | left bar      | right bar     |
 | left baz      | right baz     |
 ```
-
+newline before the first row of the table is must to show the table properly. 
+double space at the end will ensure the new line.  
+  
 | Left columns  | Right columns |
 | -:|:-:|
 | left foo      | right foo     |
@@ -78,10 +80,6 @@ a|b
 |1|2|
 
 
-c|d
--|-
-3|4
-5|6
 
 
 ## html contents
