@@ -59,11 +59,11 @@ notice the : for allignment.
 | left bar      | right bar     |
 | left baz      | right baz     |
 ```
-| Left columns  | Right columns |  
-| -:|:-:|  
-| left foo      | right foo     |  
-| left bar      | right bar     |  
-| left baz      | right baz     |  
+| Left columns  | Right columns |
+| -:|:-:|
+| left foo      | right foo     |
+| left bar      | right bar     |
+| left baz      | right baz     |
 
 ```
 simple example
@@ -71,9 +71,9 @@ a|b
 -|-
 1|2
 ```
-a|b  
+a|b
 -|-
-1|2  
+1|2
 
 ## Blocks of code
 
