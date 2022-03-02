@@ -29,11 +29,12 @@
   1. e 
 ``` 
   
-1. a  
-1. b  
-1. c  
-  1. d  
-  1. e  
+1. a
+1. b 
+1. c
+  1. d
+  1. ef
+
 
 ## Images
 
@@ -49,7 +50,17 @@
 `>>`
 > Markdown is a lightweight markup language with plain-text-formatting syntax, created in 2004 by John Gruber with Aaron Swartz.
 >
->> Markdown is often used to format readme files, for writing messages in online discussion forums, and to create rich text using a plain text editor.
+>> Markdown is often used to format readme files, for writing messages in online discussion forums, and to create rich text using a plain text editor.  
+
+now using tab below:  tab is equivalent to \`\`\`
+
+	one tabe inserted in the begining.  
+	continue second line.  
+  
+		tow tab here  
+		continue two tab. 
+
+
 
 ## Tables
 ```
