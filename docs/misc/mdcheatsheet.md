@@ -127,9 +127,9 @@ A blue and bold paragraph.
 
 test{: .blue}  
 
-	test{: style="color: red;"}  
+	test{: style="color: red;}  
 
-test{: style="color: red;"}  
+test{: style="color: red;}  
 
 
 	🔴 red: +5V  
@@ -273,24 +273,18 @@ puts "This is #{this}"
 ``` javascript 
 console.log('Code Tab A');
 ```
-## mermaid test
-```mermaid!
-pie title Pets adopted by volunteers
-  "Dogs" : 386
-  "Cats" : 85
-  "Rats" : 35
-```  
+## emoji  
+	:+1: :heart:  
 
+:+1: :heart:  
 
 
 ## Add Image
 ![Image of Yaktocat](https://octodex.github.com/images/yaktocat.png)  
 [![IMAGE ALT TEXT HERE](http://img.youtube.com/vi/YOUTUBE_VIDEO_ID_HERE/0.jpg)](http://www.youtube.com/watch?v=YOUTUBE_VIDEO_ID_HERE)  
 
+[emoji](https://www.webfx.com/tools/emoji-cheat-sheet/)
 
 
-
-[https://jekyllrb.com/docs/step-by-step/01-setup/](https://jekyllrb.com/docs/step-by-step/01-setup/)  
-[markdown editor](https://stackedit.io/app#)
 ### End
 
