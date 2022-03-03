@@ -1,3 +1,15 @@
+- [Enable remote connectivity for Coengineering.](#enable-remote-connectivity-for-coengineering)
+  * [Install / enable prerequisite](#install---enable-prerequisite)
+  * [Register/reserve the system [should be done by Admin]](#register-reserve-the-system--should-be-done-by-admin-)
+  * [system information](#system-information)
+  * [Authenticate the client pc by adding public key](#authenticate-the-client-pc-by-adding-public-key)
+  * [Tunnel configuration](#tunnel-configuration)
+    + [Gateway configuration](#gateway-configuration)
+    + [client configuration](#client-configuration)
+  * [Connecting to the system](#connecting-to-the-system)
+  * [For file transfer need to have sftp tunnel configured on port 22. And need to ensure the SUT is running with the SFTP server on port 22.](#for-file-transfer-need-to-have-sftp-tunnel-configured-on-port-22-and-need-to-ensure-the-sut-is-running-with-the-sftp-server-on-port-22)
+      - [useful links](#useful-links)
+
 # Enable remote connectivity for Coengineering. 
 
 ----
@@ -68,7 +80,7 @@ system id|locker id|gateway ip|certificate common name
 1. To do file transfer setup SSH tunnel of 192.168.1.2:22 and use any SCP client application to localhost:22  
 1. The username for KVM is `sdp` and password is `$harktank2Go`   
 1. Now the client system is ready to connect to the lab SUT. 
-1. For kvm connection click this link https://localhost . This should use local 443 port and access the kvm . 
+1. For kvm connection click this link [https://localhost](https://localhost) . This should use local 443 port and access the kvm . 
 	- ![kvm connection](coenginneringlab/raritran_client_page.png)  
 	- user: tech  and password: redhat!test. now the KVM list of SUT should be available to connect. Double click on the name from that list.  
 	- ![list of kvm](coenginneringlab/sut_list.png)  
@@ -77,10 +89,12 @@ system id|locker id|gateway ip|certificate common name
 	- user password for the system might vary. Administrator and no password is default. 
 1. For file transfer need to have sftp tunnel configured on port 22. And need to ensure the SUT is running with the SFTP server on port 22.  
 	- 
+
+
 #### useful links 
 
 [wiki for reserving system](https://wiki.ith.intel.com/display/onecloud/CCG+Cloud+FAQ#CCGCloudFAQ-HowtoReserve/ScheduleaSystemforInternalUse)  
 [privacy notice](https://www.intel.com/content/www/us/en/privacy/intel-privacy-notice.html)  
 [intel sdp access agreement](https://sdpconnect.intel.com/html/intel_sdp_access_agreement.htm)  
 [configure ssh server on windows](https://winscp.net/eng/docs/guide_windows_openssh_server)  
----
+-----  

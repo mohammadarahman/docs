@@ -328,6 +328,6 @@ Vehicle <|-- Car
 [browser extension for mermaid](https://github.com/BackMarket/github-mermaid-extension)  
 [mermaid](https://mermaid-js.github.io/mermaid/)  
 [math equation](https://mohammadarahman.github.io/docs/misc/mdcheatsheet.html)  
-
+[toc generator](https://ecotrust-canada.github.io/markdown-toc/)  
 ### End
 
