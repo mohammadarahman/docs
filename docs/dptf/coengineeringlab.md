@@ -21,16 +21,16 @@ system id|locker id|gateway ip|certificate common name
 
 1. launch `puttygen.exe` from putty installation location.  
 1. click generate and keep moving mouse over the open area.  
-1. **warning** Make sure RSA is selected and Number of bits in a generated key is **4096 **  
-	![putty key gen](coenginneringlab/puttykey.PNG)  
+1. **warning** Make sure RSA is selected and Number of bits in a generated key is **4096**  
+	- ![putty key gen](coenginneringlab/puttykey.PNG)  
 1. Enter a strong passphrase for key and confirm, then save the private key to a subfolder inside your Documents folder.  
 	- **warning** do not click `save public key` button. 
 	- ![ssh key](coenginneringlab/puttykeygen.png)
 1. select everything under `public key for pasting into OpenSSH authorized_keys file` and copy to notepad , save as MyPublicKey.  
 1. you should have a instruction email with a link to provide public key.  
-	post the content of MyPublicKey to the link.  
-	**warning** it must starts with ssh-rsa  
-	close the puttygen.exe application.  
+	- post the content of MyPublicKey to the link.  
+	- **warning** it must starts with ssh-rsa  
+	- close the puttygen.exe application.  
 
 ## Tunnel configuration  
 
@@ -65,13 +65,21 @@ system id|locker id|gateway ip|certificate common name
 1. Go To connection ->SSH -> tunnels 
 	- configure tunnel information in the below example one is for remote desktop and the other is for ipkvm.  
 	- ![tunnel config](coenginneringlab/tunnel.PNG)  
-	- To do file transfer setup SSH tunnel of 192.168.1.2:22 and use any SCP client application to localhost:22  
-	
-## useful links 
+1. To do file transfer setup SSH tunnel of 192.168.1.2:22 and use any SCP client application to localhost:22  
+1. The username for KVM is `sdp` and password is `$harktank2Go`   
+1. Now the client system is ready to connect to the lab SUT. 
+1. For kvm connection click this link https://localhost . This should use local 443 port and access the kvm . 
+	- ![kvm connection](coenginneringlab/raritran_client_page.png)  
+	- user: tech  and password: redhat!test. now the KVM list of SUT should be available to connect. Double click on the name from that list.  
+	- ![list of kvm](coenginneringlab/sut_list.png)  
+1. For RDP (remote desktop connection) use localhost:3390 . see the previous tunnel config ]  
+	- ![RDP](rdp.png)  
+	- user password for the system might vary. Administrator and no password is default. 
+
+#### useful links 
 
 [wiki for reserving system](https://wiki.ith.intel.com/display/onecloud/CCG+Cloud+FAQ#CCGCloudFAQ-HowtoReserve/ScheduleaSystemforInternalUse)  
 [privacy notice](https://www.intel.com/content/www/us/en/privacy/intel-privacy-notice.html)  
 [intel sdp access agreement](https://sdpconnect.intel.com/html/intel_sdp_access_agreement.htm)  
-
 
 ---
