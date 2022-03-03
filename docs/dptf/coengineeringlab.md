@@ -73,13 +73,14 @@ system id|locker id|gateway ip|certificate common name
 	- user: tech  and password: redhat!test. now the KVM list of SUT should be available to connect. Double click on the name from that list.  
 	- ![list of kvm](coenginneringlab/sut_list.png)  
 1. For RDP (remote desktop connection) use localhost:3390 . see the previous tunnel config ]  
-	- ![RDP](rdp.png)  
+	- ![RDP](coenginneringlab/rdp.png)  
 	- user password for the system might vary. Administrator and no password is default. 
-
+1. For file transfer need to have sftp tunnel configured on port 22. And need to ensure the SUT is running with the SFTP server on port 22.  
+	- 
 #### useful links 
 
 [wiki for reserving system](https://wiki.ith.intel.com/display/onecloud/CCG+Cloud+FAQ#CCGCloudFAQ-HowtoReserve/ScheduleaSystemforInternalUse)  
 [privacy notice](https://www.intel.com/content/www/us/en/privacy/intel-privacy-notice.html)  
 [intel sdp access agreement](https://sdpconnect.intel.com/html/intel_sdp_access_agreement.htm)  
-
+[configure ssh server on windows](https://winscp.net/eng/docs/guide_windows_openssh_server)  
 ---
