@@ -30,15 +30,15 @@ Lab support|https://jira.devtools.intel.com/browse/DV-12091|bring up DG2 with AD
 Lab support|https://jira.devtools.intel.com/browse/DV-12172|Get ADL SBGA from HF1 cage|||  
 test|https://jira.devtools.intel.com/browse/DV-12176|Basic performance test to ensure no performance regression|||  
 test|https://jira.devtools.intel.com/browse/DV-12177|Verify policy response with gfx driver initialization / reinstallation|||  
-|https://jira.devtools.intel.com/browse/DV-11902|[DG2] Power Share 2 policy check with latest BKC|||Closed  
-|https://jira.devtools.intel.com/browse/DV-12303|[DG2] Sanity check of power share 2 policy with the latest BKC|||  
+story|https://jira.devtools.intel.com/browse/DV-11902|[DG2] Power Share 2 policy check with latest BKC|||Closed  
+story|https://jira.devtools.intel.com/browse/DV-12303|[DG2] Sanity check of power share 2 policy with the latest BKC|||  
 test|https://jira.devtools.intel.com/browse/DV-12212|Verify gfx driver functions with power share 2.|||  
 story|https://jira.devtools.intel.com/browse/DV-12220|Test cases [newly added for improving coverage] review for  DG2|||  
-|https://jira.devtools.intel.com/browse/DV-12298|Review TPG test case|||  
-|https://jira.devtools.intel.com/browse/DV-12297|TPG Automation development|||  
-|https://jira.devtools.intel.com/browse/DV-6924|Power share excel template|||  
-|https://jira.devtools.intel.com/browse/DV-7208|Adding test to specflow|||  
-|https://jira.devtools.intel.com/browse/DV-7146|Google test converted to specflow.|||  
+story|https://jira.devtools.intel.com/browse/DV-12298|Review TPG test case|||  
+story|https://jira.devtools.intel.com/browse/DV-12297|TPG Automation development|||  
+story|https://jira.devtools.intel.com/browse/DV-6924|Power share excel template|||  
+story|https://jira.devtools.intel.com/browse/DV-7208|Adding test to specflow|||  
+story|https://jira.devtools.intel.com/browse/DV-7146|Google test converted to specflow.|||  
 Lab-support|https://jira.devtools.intel.com/browse/DV-12328|TGL system reimage (oem system)|||closed  
 Story|https://jira.devtools.intel.com/browse/DV-12364|Bring up laptop to ilab. tpg|||  
 Story|https://jira.devtools.intel.com/browse/DV-12376|Test with the tools|||  
