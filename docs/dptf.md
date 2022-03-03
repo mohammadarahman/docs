@@ -11,3 +11,4 @@
 	- [esif command](dptf/esif.md)  
 	- [MISC](dptf/misc.md)  
 	- [logging](dptf/tracing_logging.md)  
+	- [Stories Bugs](dptf/stories_bugs.md)  

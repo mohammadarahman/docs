@@ -1,6 +1,9 @@
-- [Enable remote connectivity for Coengineering.](#enable-remote-connectivity-for-coengineering)
+# Enable remote connectivity for Coengineering. 
+----
+
+- Contents
   * [Install / enable prerequisite](#install---enable-prerequisite)
-  * [Register/reserve the system [should be done by Admin]](#register-reserve-the-system--should-be-done-by-admin-)
+  * [Register/reserve the system](#register-reserve-the-system--should-be-done-by-admin-)
   * [system information](#system-information)
   * [Authenticate the client pc by adding public key](#authenticate-the-client-pc-by-adding-public-key)
   * [Tunnel configuration](#tunnel-configuration)
@@ -10,9 +13,7 @@
   * [For file transfer need to have sftp tunnel configured on port 22. And need to ensure the SUT is running with the SFTP server on port 22.](#for-file-transfer-need-to-have-sftp-tunnel-configured-on-port-22-and-need-to-ensure-the-sut-is-running-with-the-sftp-server-on-port-22)
       - [useful links](#useful-links)
 
-# Enable remote connectivity for Coengineering. 
 
-----
 
 ## Install / enable prerequisite  
 
