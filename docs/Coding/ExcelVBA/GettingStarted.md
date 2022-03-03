@@ -1,4 +1,5 @@
-[index](Index.md)
+[Excel Learning](../ExcelVBA.md)  
+
 # Getting Started with VBA Macro
 
 * **Right click ribbon**  
@@ -21,4 +22,4 @@
 
 
 
-[index](Index.md)
+[Excel Learning](../ExcelVBA.md)  

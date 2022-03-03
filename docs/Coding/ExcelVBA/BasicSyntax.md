@@ -1,4 +1,5 @@
-[index](Index.md)
+[Excel Learning](../ExcelVBA.md)  
+
 # All basic Syntax
 
 ## variable declaration
@@ -157,4 +158,4 @@ MyValue = InputBox(Message, Title, , , , "DEMO.HLP", 10)
 ' Display dialog box at position 100, 100.
 MyValue = InputBox(Message, Title, Default, 100, 100)
 ```
-[index](Index.md)
+[Excel Learning](../ExcelVBA.md)  

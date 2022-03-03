@@ -1,94 +1,55 @@
-
-
 # Acceptance criteria  
 
-1) Power sharing loop starts when two or more participants with activity status capability in PSH2 table and the MCP participant **have been bound** . The loop time comes from **min_default_sample_period** primitive, which can be overridden in the data vault. The default should be 100ms. The sample period is only read **once** by the policy at **start up**. 
-IETM participatnt and premitive 426/427. 
-
-
-
-
-2) ~~If there is only one activity status participant bound and MCP participant is present, set 100% share of power to the bound participant. The control loop shall not be active.~~  
-- not applicable. 
-
-3) No action should be taken when MCP participant is not present. 
-Policy is not enabled if the MCP is not present. 
-
-
-4) Utilization of the CPU participant calculated and written as a debug message to the log every time through the loop. Value also appears in the policy monitor page. Message is tagged with "PSP_UTILIZATION". 
-no print in log 
-
-
-5) Utilization of the IDG1 participant calculated and written as a debug message to the log every time through the loop. Value also appears in the policy monitor page. Message is tagged with "PSP_UTILIZATION". We will need to use simulated (through automation) or manually faked values for utilization (through data vault override) at this time. 
-
-6) IA energy calculated and written as a debug message to the log every time through the loop. Value also appears in the policy monitor page. Log message is tagged with "PSP_ENERGY". 
-
-7) Energy calculated for IDG1 participant and written as a debug message to the log every time through the loop. Message is tagged with "PSP_ENERGY". Value also appears in the policy monitor page. We will need to use simulated (through automation) or manually faked values for energy (through data vault override) at this time. 
-
-8) Add SET_RAPL_ENERGY, SET_RAPL_ENERGY_UNIT, SET_RAPL_ENERGY_COUNTER_WIDTH to IDG1 participant to override values in override.dv 
-set_rapl_energy_unit missing. 
-SET_RAPL_ENERGY_COUNTER_WIDTH missing
-
-
-9) If IDG1 exists in PSHA and primitive fails, want to set MCP power from just CPU participant 
-Q? PSHA or PSH2
-
-
-10) Total power consumed by MCP participant written as a debug message to the log every time through the loop. Message is tagged with "PSP_ENERGY" and includes participant scope. Value also appears in the policy monitor page. 
-
-11) Time delta written as a debug message to the log every time through the loop. Message is tagged with "PSP_ENERGY". Value also appears in the policy monitor page. 
-
-
-12) PID Budget calculated and written as a debug message to the log every time through the loop. Message is tagged with "PSP_TDP_HR". Value also appears in the policy monitor page. 
-
-13) Available TDP headroom calculated and written as a debug message to the log every time through the loop. Value also appears in the policy monitor page. 
-
-14) BIAS calculated for both CPU and IDG1 and written as a debug message to the log every time through the loop. Message is tagged with "PSP_BIAS" and includes participant scope. Values also appear in the policy monitor page. 
-
-15) CPU and IDG1 TDP budgets calculated and written as a debug message to the log every time through the loop. Message is tagged with "PSP_BIAS". Value also appears in the policy monitor page. 
-
-16) Budgets that were calculated for CPU and IDG1 are written to the participant power controls 
-
-17) Control loop slows down when the EWMA power is below the threshold, utilization is below the threshold, and the policy is not limiting (see calculations in the description) 
-
-18) Slow polling values shown in UI as well as the current control loop rate (notLimiting, ewmaPowerBelowThreshold, utilBelowThreshold, current control loop polling rate) 
-
-19) When slow polling is enabled, temperature thresholds are set for the CPU participant and energy thresholds are set for the DGFX participant. If either of these thresholds gets crossed, the policy shall consider taking action 
-
-20) Update the wiki page with information for this story
-
-
+1. Power sharing loop starts when two or more participants with activity status capability in PSH2 table and the MCP participant **have been bound** . The loop time comes from **min_default_sample_period** primitive, which can be overridden in the data vault. The default should be 100ms. The sample period is only read **once** by the policy at **start up**. IETM participatnt and premitive 426/427. 
+2. ~~If there is only one activity status participant bound and MCP participant is present, set 100% share of power to the bound participant. The control loop shall not be active.~~  - not applicable. 
+3. No action should be taken when MCP participant is not present. Policy is not enabled if the MCP is not present. 
+4. Utilization of the CPU participant calculated and written as a debug message to the log every time through the loop. Value also appears in the policy monitor page. Message is tagged with "PSP_UTILIZATION". no print in log  
+5. Utilization of the IDG1 participant calculated and written as a debug message to the log every time through the loop. Value also appears in the policy monitor page. Message is tagged with "PSP_UTILIZATION". We will need to use simulated (through automation) or manually faked values for utilization (through data vault override) at this time.  
+6. IA energy calculated and written as a debug message to the log every time through the loop. Value also appears in the policy monitor page. Log message is tagged with "PSP_ENERGY".  
+7. Energy calculated for IDG1 participant and written as a debug message to the log every time through the loop. Message is tagged with "PSP_ENERGY". Value also appears in the policy monitor page. We will need to use simulated (through automation) or manually faked values for energy (through data vault override) at this time.  
+8. Add SET_RAPL_ENERGY, SET_RAPL_ENERGY_UNIT, SET_RAPL_ENERGY_COUNTER_WIDTH to IDG1 participant to override values in override.dv  set_rapl_energy_unit missing.  SET_RAPL_ENERGY_COUNTER_WIDTH missing  
+9. If IDG1 exists in PSHA and primitive fails, want to set MCP power from just CPU participant  Q? PSHA or PSH2 
+10. Total power consumed by MCP participant written as a debug message to the log every time through the loop. Message is tagged with "PSP_ENERGY" and includes participant scope. Value also appears in the policy monitor page.  
+11. Time delta written as a debug message to the log every time through the loop. Message is tagged with "PSP_ENERGY". Value also appears in the policy monitor page.  
+12. PID Budget calculated and written as a debug message to the log every time through the loop. Message is tagged with "PSP_TDP_HR". Value also appears in the policy monitor page.  
+13. Available TDP headroom calculated and written as a debug message to the log every time through the loop. Value also appears in the policy monitor page.  
+14. BIAS calculated for both CPU and IDG1 and written as a debug message to the log every time through the loop. Message is tagged with "PSP_BIAS" and includes participant scope. Values also appear in the policy monitor page.  
+15. CPU and IDG1 TDP budgets calculated and written as a debug message to the log every time through the loop. Message is tagged with "PSP_BIAS". Value also appears in the policy monitor page.  
+16. Budgets that were calculated for CPU and IDG1 are written to the participant power controls  
+17. Control loop slows down when the EWMA power is below the threshold, utilization is below the threshold, and the policy is not limiting (see calculations in the description)  
+18. Slow polling values shown in UI as well as the current control loop rate (notLimiting, ewmaPowerBelowThreshold, utilBelowThreshold, current control loop polling rate)  
+19. When slow polling is enabled, temperature thresholds are set for the CPU participant and energy thresholds are set for the DGFX participant. If either of these thresholds gets crossed, the policy shall consider taking action  
+20. Update the wiki page with information for this story  
 
 
 ## QA  
 
-1) how the pid budget calculated? what is the negetive number means.  
-2) Is available TDP Headroom constant? observed 30000  
+1. how the pid budget calculated? what is the negetive number means.  
+2. Is available TDP Headroom constant? observed 30000  
 	- no its not constant. 
-3) what is EWMA?  
+3. what is EWMA?  
 	- Exponential Weighted Moving Average  
-3) what is the difference between pid-target and pid budget.  
-4) what is iterm?  
-	- ki related parameter.
-5) alpha / tau based on the sampling what will change? 
-6) why callback time delta in low graphics mode is always around 3 sec. ???
-7) PSP_utilization is missing in log with debug level. 65397 /2266
-8) 100% to cpu and 100% to graphics.  65383 / 2267
-9) setp 476 D0 255 for SET_RAPL_ENERGY to zero - 65401 / 2269
-	- i can set once. 
-
-10) change the TC as per new UI. 65388 / 2278
-	check with spencer 
-11) update the export description for 65373 / 2243
+4. what is the difference between pid-target and pid budget.  
+5. what is iterm?   
+	- ki related parameter.  
+6. alpha / tau based on the sampling what will change?   
+7. why callback time delta in low graphics mode is always around 3 sec. ???  
+8. PSP_utilization is missing in log with debug level. 65397 /2266  
+9. 100% to cpu and 100% to graphics.  65383 / 2267  
+10. setp 476 D0 255 for SET_RAPL_ENERGY to zero - 65401 / 2269  
+	- i can set once.  
+11. change the TC as per new UI. 65388 / 2278  
+	check with spencer  
+12. update the export description for 65373 / 2243  
 	- update test desc  
-12) Temp Control and Threshold knobs appear on DGFC 65402 / 2328 
-13) rewrite the test case 65375 / 2364
-14) How frequently ewma calculations are done. 
+13. Temp Control and Threshold knobs appear on DGFC 65402 / 2328  
+14. rewrite the test case 65375 / 2364  
+15. How frequently ewma calculations are done.  
 
 ## note:
-- restart required after resetting the pid target value
-- RAPL is pid target. 
-- ESIF shell command is on MCPP
+- restart required after resetting the pid target value  
+- RAPL is pid target.  
+- ESIF shell command is on MCPP  
 - available TDP headroom is fixed when pid target is less than
 - utilization of CPU and graphics from the primitives. 
 - 𝑡𝑎𝑢 (1𝑠 𝑑𝑒𝑓𝑎𝑢𝑙𝑡)  :𝑡𝑖𝑚𝑒 𝑐𝑜𝑛𝑠𝑡𝑎𝑛𝑡 𝑓𝑜𝑟 𝑡ℎ𝑒 𝑃𝐼𝐷 𝑎𝑙𝑔𝑜𝑟𝑖𝑡ℎ𝑚

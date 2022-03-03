@@ -1,4 +1,4 @@
-[index](Index.md)  
+[Excel Learning](../ExcelVBA.md)  
 ---  
 
 # Excel Worksheet specific tutorial  
@@ -66,4 +66,4 @@ Here is the link for color chooser.
 [color index](https://docs.microsoft.com/en-us/office/vba/api/excel.colorindex)  
 ---
 
-[index](Index.md)
+[Excel Learning](../ExcelVBA.md)   
