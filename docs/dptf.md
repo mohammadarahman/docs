@@ -1,7 +1,7 @@
 # All DTT related topics 
 
 - Automation  
-	- [Automation](dptf/Automation_Intro.md)  
+	- [Automation](dptf/automation.md)  
 	- 
 - [Policies](dptf/policies.md)  
 	- [TPG](dptf/tpg.md)  
