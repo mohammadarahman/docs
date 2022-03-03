@@ -1,5 +1,6 @@
 # Enable remote connectivity for Coengineering. 
---  
+
+----
 
 ## Install / enable prerequisite  
 
@@ -13,7 +14,7 @@
 ## system information  
 
 system id|locker id|gateway ip|certificate common name
----------|---------|----------|-----------------------
+:--:|:-----:|:-----:|:-------:
 107269   |5061     |192.55.64.252|intelsdp5061
 
 ## Authenticate the client pc by adding public key 
