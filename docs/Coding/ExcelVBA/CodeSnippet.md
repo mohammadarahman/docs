@@ -1,4 +1,5 @@
-[index](Index.md)
+[Excel Learning](../ExcelVBA.md)  
+
 # Example code
 
 ## To get all the env variable in a excel sheet.  
@@ -118,4 +119,4 @@ End Function
 ```
 
 
-[index](Index.md)
+[Excel Learning](../ExcelVBA.md)  
