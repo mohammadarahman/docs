@@ -85,3 +85,6 @@ print(myorder.format(carname = "Ford", model = "Mustang"))
 	- ` x =a or b` if a false x will be equal to b whatever object it is. 
 	- ` x= a and b` if a true x will be equal to b whatever it is. 
 	
+## External links: 
+[pdf cheat sheet(https://perso.limsi.fr/pointal/_media/python:cours:mementopython3-english.pdf)  
+[shortcuts in python](https://cheatography.com/christoph-leitner/cheat-sheets/essential-shortcuts-in-python/)  
