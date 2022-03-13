@@ -15,7 +15,7 @@
 	note : no comma at last items
 ```python 
 	dict = {"a":10, "b":20}   
-	for x in dict` #here x is key only.  
+	for x in dict #here x is key only.  
 	for x in dict.keys() #key  
 	for x in dict.values() # values  
 	for x,y in dict.items() # key values
@@ -33,9 +33,9 @@
 	here else will be executed if except doesnt execute.   
 	try except finally can be used too finally will execute no matter exception occurs or not  
 	raise can be used for throwing exception.   
-	Examples: `raise Exception("Sorry, no numbers below zero")`  
-	`raise TypeError("Only integers are allowed")`  
-1. **Input**
+	Examples: ```python raise Exception("Sorry, no numbers below zero")   
+	raise TypeError("Only integers are allowed")```  
+1. **Input**  
 	`myinput = input()` pythong 2.7 uses raw_input.   
 1. **String format examples [useful]**  
 ```python 
@@ -48,18 +48,39 @@ print(myorder.format(carname = "Ford", model = "Mustang"))
 ```  
 
 1. **decorator function**
-	
-	
+	This is basically a function inside another function. and innerfunction is returned by outer function.  
+	*args and **kwargs can be used to transparently pass the argument  
+	example:
+	```python 
+	def calculate_time(func):
+		def inner1(*args,**kwargs):
+			begin = time.time()
+			func(*args,**kwargs)
+			end = time.time()
+			print("total time taken: ",func.__name__,end-begin)
+		return inner1
+	#usage here
+	@calculate_time
+	def fact(num):
+		print(math.factorial(num))
+	fact(100)
+	```  
+	chaining of decorator is also possible. 
 1. **code example**
 
-### copy file from one to other  
-
+#### copy file from one to other  
 	```python 
 	with open('data') as input_file, open('result', 'w') as output_file:
     for line in input_file:
         output_file.write(parse(line))
 	```
-### nexyt
+	#### args kwargs
+	``` python 
+	def myFun(*args,**kwargs):
+		print("args: ", args)
+		print("kwargs: ", kwargs)
+	myFun('geeks','for','geeks',first="Geeks",mid="for",last="Geeks")
+```
 1. **common mistakes**
 	- ` x =a or b` if a false x will be equal to b whatever object it is. 
 	- ` x= a and b` if a true x will be equal to b whatever it is. 
