@@ -13,12 +13,13 @@
 	- bytes
 1. **DICTIONARY**  
 	note : no comma at last items
-	```python 
+```python 
 	dict = {"a":10, "b":20}   
 	for x in dict` #here x is key only.  
 	for x in dict.keys() #key  
 	for x in dict.values() # values  
-	for x,y in dict.items() # key values```  
+	for x,y in dict.items() # key values
+```  
 	for copy `newdict = thisdict.copy` or `newdict = dict(thisdict)`  
 1. **try except**  
 ```python 
@@ -43,7 +44,8 @@ print(txt.format(10,5))
 myorder = "I want {0} pieces of item number {1} for {2:.2f} dollars."  
 # 0 1 2 for index and :.2f for 2 point pafter decimal.  
 myorder = "I have a {carname}, it is a {model}."  
-print(myorder.format(carname = "Ford", model = "Mustang"))```  y
+print(myorder.format(carname = "Ford", model = "Mustang"))  
+```  
 
 1. **decorator function**
 	
