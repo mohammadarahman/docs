@@ -36,13 +36,13 @@
 1. **Input**
 	`myinput = input()` pythong 2.7 uses raw_input.   
 1. **String format examples [useful]**  
-	```python
-	txt = "The price is {} dollars for {} itmes"  
-	print(txt.format(10,5))  
-	myorder = "I want {0} pieces of item number {1} for {2:.2f} dollars."  
-	# 0 1 2 for index and :.2f for 2 point pafter decimal.
-	myorder = "I have a {carname}, it is a {model}."  
-	print(myorder.format(carname = "Ford", model = "Mustang"))```  
+```python
+txt = "The price is {} dollars for {} itmes"  
+print(txt.format(10,5))  
+myorder = "I want {0} pieces of item number {1} for {2:.2f} dollars."  
+# 0 1 2 for index and :.2f for 2 point pafter decimal.
+myorder = "I have a {carname}, it is a {model}."  
+print(myorder.format(carname = "Ford", model = "Mustang"))```  
 1. **decorator function**
 	
 	
