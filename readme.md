@@ -23,6 +23,6 @@ This is collections of documents for learning and project too.
 [my md tips](docs/misc/mdcheatsheet.md)  
 [how to](docs/howto/howto.md)  
 [recipe](docs/recipe/recipe.md)  
-[VBA Tutorial](Coding/ExcelVBA/Index.md)  
-[DPTF](docs/dptf/dptf.md) 
+[DPTF](docs/dptf/dptf.md)  
+[Coding questions](docs/Coding/coding.md)  
  
