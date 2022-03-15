@@ -65,8 +65,13 @@ print(myorder.format(carname = "Ford", model = "Mustang"))
 		print(math.factorial(num))
 	fact(100)
 	```  
-	chaining of decorator is also possible. 
-1. **code example**
+	chaining of decorator is also possible.  
+	
+1. **common mistakes**
+	` x =a or b` if a false x will be equal to b whatever object it is.  
+	` x= a and b` if a true x will be equal to b whatever it is.  
+	
+## **<font color="red">code example</font>**
 
 #### copy file from one to other  
 
@@ -83,9 +88,7 @@ print(myorder.format(carname = "Ford", model = "Mustang"))
 		print("kwargs: ", kwargs)
 	myFun('geeks','for','geeks',first="Geeks",mid="for",last="Geeks")
 ```
-1. **common mistakes**
-	` x =a or b` if a false x will be equal to b whatever object it is.  
-	` x= a and b` if a true x will be equal to b whatever it is.  
+
 	
 ## External links: 
 [pdf cheat sheet(https://perso.limsi.fr/pointal/_media/python:cours:mementopython3-english.pdf)  
