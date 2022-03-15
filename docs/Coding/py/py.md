@@ -67,30 +67,33 @@ print(myorder.format(carname = "Ford", model = "Mustang"))
 	```  
 	chaining of decorator is also possible.  
 	
-1. **common mistakes**
-	` x =a or b` if a false x will be equal to b whatever object it is.  
+1. **common mistakes**  
+
+	` x =a or b` if a false x will be equal to b whatever it is.  
 	` x= a and b` if a true x will be equal to b whatever it is.  
-	
+
 ## **<font color="red">code example</font>**
 
 #### copy file from one to other  
 
 ```python 
-	with open('data') as input_file, open('result', 'w') as output_file:
+with open('data') as input_file, open('result', 'w') as output_file:
     for line in input_file:
         output_file.write(parse(line))
 ```
 #### args kwargs  
 	
 ``` python 
-	def myFun(*args,**kwargs):
-		print("args: ", args)
-		print("kwargs: ", kwargs)
-	myFun('geeks','for','geeks',first="Geeks",mid="for",last="Geeks")
+def myFun(*args,**kwargs):
+	print("args: ", args)
+	print("kwargs: ", kwargs)
+myFun('geeks','for','geeks',first="Geeks",mid="for",last="Geeks")
 ```
-
+[Pandas](pandas.md)  
+[numpy](numpy.md)  
+[scipy](scipy.md)  
 	
 ## External links: 
-[pdf cheat sheet(https://perso.limsi.fr/pointal/_media/python:cours:mementopython3-english.pdf)  
+[pdf cheat sheet](https://perso.limsi.fr/pointal/_media/python:cours:mementopython3-english.pdf)  
 [shortcuts in python](https://cheatography.com/christoph-leitner/cheat-sheets/essential-shortcuts-in-python/)  
 [python lists](https://www.educba.com/list-operations-in-python/)  

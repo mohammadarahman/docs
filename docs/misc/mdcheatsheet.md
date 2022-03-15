@@ -260,7 +260,7 @@ cond(no)->op
 
 ## code block  
 
-```python
+```python 
 if(x):
   print("this is x")
 ```  
