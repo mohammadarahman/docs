@@ -69,8 +69,8 @@ print(myorder.format(carname = "Ford", model = "Mustang"))
 	
 1. **common mistakes**  
 
-	` x =a or b` if a false x will be equal to b whatever it is.  
-	` x= a and b` if a true x will be equal to b whatever it is.  
+	`x =a or b` if a false x will be equal to b whatever it is   
+	`x= a and b` if a true x will be equal to b whatever it is   
 
 ## **<font color="red">code example</font>**
 
