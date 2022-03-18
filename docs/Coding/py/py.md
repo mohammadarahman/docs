@@ -78,8 +78,8 @@ print(myorder.format(carname = "Ford", model = "Mustang"))
 
 ```python 
 with open('data') as input_file, open('result', 'w') as output_file:
-    for line in input_file:
-        output_file.write(parse(line))
+  for line in input_file:
+    output_file.write(parse(line))
 ```
 #### args kwargs  
 	
@@ -89,6 +89,9 @@ def myFun(*args,**kwargs):
 	print("kwargs: ", kwargs)
 myFun('geeks','for','geeks',first="Geeks",mid="for",last="Geeks")
 ```
+
+## my learnings.  
+
 [Pandas](pandas.md)  
 [numpy](numpy.md)  
 [scipy](scipy.md)  
