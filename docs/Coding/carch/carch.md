@@ -4,8 +4,38 @@
 1. one approach relies on hardware  
 2. the other one is relying on the compiler.  
 
-CPI = cycles per instructions 
+CPI = cycles per instructions  
 
+### data dependents  
+
+### name dependences  
+
+two instructions are using the same registers.  
+1. **antidpenedence**  j writes to a register and i reads from that . 
+1. **output dependence** two instructions writes to same register. ordering must be preserved.  
+register renaming can be done statically by a compiler or dynamically by the hardware.  
+
+
+
+### data hazards  
+
+### WAR - Write after read  
+j tries to write before i reads it the old data form register.  
+
+### WAW - Write after write  
+j tries to write before i writs data to register. writing opposite order cause wrong data to read.  
+instruction continues to proceed even if the i is stalled. 
+
+### RAW - Read after write  
+j tries to read before i writes it. 
+
+Note: read after read is not a hazard.  
+
+### control dependences  
+1. can not move any instruction from inside then before if control statement. 
+2. can not move any instruction to the then block which is before if statement. 
+
+A control dependences determines the execution of the order. 
 ## Memory Hieararchy
 
 	cpu -> cache => Memory ->io devices
@@ -41,7 +71,12 @@ Avg memory access time = hit time + miss rate x miss penalty
 
 Processor can execute other instruction during the miss time.  
 
+	**Virtual memory :** it means some objects can live on disk. Address space is broken into fixed size blocks called pages.  
+	At any time each page resides either in main memory or disk.  
+	when page fault occurs (missing page in memory) then entire page moved to memory and during this time CPU is free.  
+	
 ### how to improve the miss rate  
+
 1. Large block size - use large block can cause miss penalty. Does larger block causes longer hit time?  
 1. bigger cache - causes longer hit time  
 1. Higher associativity - with the cost of hit time.  
@@ -51,7 +86,35 @@ Processor can execute other instruction during the miss time.
 1.
 
 
-###Questions  
+## pipeline  
+
+Every instruction of RISC requires 5 cycles  
+
+### IF Instruction fetch cycle  
+
+send program controller (pc) to read the instruction  
+update PC by 4 as each instructionis 4 byte.  
+
+### ID Instruction Decoe   
+
+Decoding is done in parallel with the wregister reading.  
+
+### Ex Execution  
+
+ALU operates on operands  
+ALU adds the base register and offset to form effective address  
+ALU performa operation specied by opcode.  
+
+### Mem memory access  
+
+if instruction is load it reads memeory using the effective address.  
+if instruction is write it writes to the effective address  
+
+### WB write back  
+
+Write the results in register
+
+##Questions  
 
 1. What is the cache size for ADL CPU?  
 1. what is the limitation to give extra large cache memory ? only cost and size?  
