@@ -41,6 +41,8 @@ A control dependences determines the execution of the order.
 	cpu -> cache => Memory ->io devices
 	250ps   1 ns     100ns      10ns
 	500bytes  64KB    1GB        1TB. 
+
+	Each core has L1 cache and L2 cache but L3 cache is common for all core. 
 	
 word
 line/block = multiple words  
@@ -74,7 +76,10 @@ Processor can execute other instruction during the miss time.
 	**Virtual memory :** it means some objects can live on disk. Address space is broken into fixed size blocks called pages.  
 	At any time each page resides either in main memory or disk.  
 	when page fault occurs (missing page in memory) then entire page moved to memory and during this time CPU is free.  
-	
+	virtual space is bigger than physical  
+	each process has its own page entry.  
+
+	**page entry:** contains 1) physical page number 2) valid bit 3) dirty bit 4) use bit 5) protection field 6) disk address. 
 ### how to improve the miss rate  
 
 1. Large block size - use large block can cause miss penalty. Does larger block causes longer hit time?  
@@ -114,8 +119,20 @@ if instruction is write it writes to the effective address
 
 Write the results in register
 
+## Processors virtual address space.  
+
+	- stack grows high to low.  
+	- heap grows low to high  
+	- code is in the bottom  
+	- data is next  
+	- segfault occurs if stack and heap overlaps  
+	- Unallocated memory is protected  
+	- text and data is read only  
+	
+
 ##Questions  
 
 1. What is the cache size for ADL CPU?  
 1. what is the limitation to give extra large cache memory ? only cost and size?  
 1. What is conflict miss.  
+1. how to find a data if it is in cache?
