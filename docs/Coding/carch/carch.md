@@ -116,7 +116,7 @@ each process has its own page entry.
 ## pipeline  
 
 Every instruction of RISC requires 5 cycles  
-![pipeline data path flow](pipeline_datapath)  
+![pipeline data path flow](pipeline_datapath.PNG)  
 
 #### IF: Instruction fetch cycle  
 
