@@ -47,25 +47,40 @@ A control dependences determines the execution of the order.
 word
 line/block = multiple words  
 
+
 design decision : where blocks/lines can be placed in cache. 
 	popular scheme is: set associative   
 	set is a group of block in the cache.  
 	a block is first mapped onto a set and the block can be placed anywhere in the set  
 	if there are n block in a set then this is called n way set associative.  
 	caching data that is read only easy.  
-	but write is difficult 
-		how can the data be ensured to be kept consistant. 
-		1. Write Through - update in cache and memory both. 
-		1. write back - write back to memory only occurs when it is about to be replaced. 
+	but write is difficult  
+		how can the data be ensured to be kept consistant.  
+1. Write Through - update in cache and memory both.  
+1. write back - write back to memory only occurs when it is about to be replaced.  
 		both aproach can user write buffer to allow cache to proceed .  
 
 	Miss Rate: 
 	number of access missed from cache / total access attempt. 
 
-Three C miss category: 
-	1. Compulsory - first access must be from non cache.  
-	1. Capacity - cache is full. it contains all the block needed for execution.  
-	1. Conflict - if the block placement strategy is not fully associative.  
+cache block: 
+	cache is like table.  
+	each row is a set  
+	direct map => each row has one column => associativity =1  
+	Fully associative = 1 row 
+	cache block is one set and one column
+	a data from memory can be put into cache using a mod calculation. 
+	set index = block number modulo number set
+
+how to find if a block is in upper level: 
+	there are 4 main things block address / tag / index / block offsets. 
+	increasing associativity shrink index. expands tags. 
+	
+
+Three C miss category:  
+1. Compulsory - first access must be from non cache.  
+1. Capacity - cache is full. it contains all the block needed for execution.  
+1. Conflict - if the block placement strategy is not fully associative.  
 
 Some designer prefers Misses/ instruction  instead of miss rate.  
 
@@ -73,13 +88,20 @@ Avg memory access time = hit time + miss rate x miss penalty
 
 Processor can execute other instruction during the miss time.  
 
-	**Virtual memory :** it means some objects can live on disk. Address space is broken into fixed size blocks called pages.  
-	At any time each page resides either in main memory or disk.  
-	when page fault occurs (missing page in memory) then entire page moved to memory and during this time CPU is free.  
-	virtual space is bigger than physical  
-	each process has its own page entry.  
+**Virtual memory :** it means some objects can live on disk. Address space is broken into fixed size blocks called pages.  
+At any time each page resides either in main memory or disk.  
+when page fault occurs (missing page in memory) then entire page moved to memory and during this time CPU is free.  
+virtual space is bigger than physical  
+each process has its own page entry.  
 
-	**page entry:** contains 1) physical page number 2) valid bit 3) dirty bit 4) use bit 5) protection field 6) disk address. 
+**page entry:** contains  
+1. physical page number  
+2. valid bit  
+3. dirty bit  
+4. use bit  
+5. protection field  
+6. disk address.  
+
 ### how to improve the miss rate  
 
 1. Large block size - use large block can cause miss penalty. Does larger block causes longer hit time?  
