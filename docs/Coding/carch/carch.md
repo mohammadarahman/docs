@@ -116,28 +116,29 @@ each process has its own page entry.
 ## pipeline  
 
 Every instruction of RISC requires 5 cycles  
+![pipeline data path flow](pipeline_datapath)  
 
-### IF Instruction fetch cycle  
+#### IF: Instruction fetch cycle  
 
 send program controller (pc) to read the instruction  
 update PC by 4 as each instructionis 4 byte.  
 
-### ID Instruction Decoe   
+#### ID: Instruction Decoe   
 
 Decoding is done in parallel with the wregister reading.  
 
-### Ex Execution  
+#### Ex: Execution  
 
 ALU operates on operands  
 ALU adds the base register and offset to form effective address  
 ALU performa operation specied by opcode.  
 
-### Mem memory access  
+#### Mem: memory access  
 
 if instruction is load it reads memeory using the effective address.  
 if instruction is write it writes to the effective address  
 
-### WB write back  
+#### WB: write back  
 
 Write the results in register
 
@@ -152,9 +153,14 @@ Write the results in register
 	- text and data is read only  
 	
 
-##Questions  
+## Questions  
 
 1. What is the cache size for ADL CPU?  
 1. what is the limitation to give extra large cache memory ? only cost and size?  
 1. What is conflict miss.  
-1. how to find a data if it is in cache?
+1. how to find a data if it is in cache?  
+
+
+## good links
+
+[class lecture stoney brook](https://compas.cs.stonybrook.edu/~nhonarmand/courses/sp16/cse502/slides/)  
