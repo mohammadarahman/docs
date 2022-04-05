@@ -2,6 +2,7 @@
 ## Ingredients 
 
 for sweet:  
+
 item|quantity
 --|--
 milk|1/2 gallon
@@ -13,6 +14,7 @@ sugar|2TBSP
 baking powder|1tsp
 
 for syrap:  
+
 item|quantity
 --|--
 sugar|2 cup
