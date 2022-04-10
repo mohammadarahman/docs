@@ -4,9 +4,10 @@
 1. one approach relies on hardware  
 2. the other one is relying on the compiler.  
 
-CPI = cycles per instructions  
 
-### data dependents  
+### data dependencies  
+
+one instruction is depending on the data from other instruction. 
 
 ### name dependences  
 
@@ -19,28 +20,32 @@ register renaming can be done statically by a compiler or dynamically by the har
 
 ### data hazards  
 
-### WAR - Write after read  
+#### WAR - Write after read  
 j tries to write before i reads it the old data form register.  
 
-### WAW - Write after write  
+#### WAW - Write after write  
 j tries to write before i writs data to register. writing opposite order cause wrong data to read.  
 instruction continues to proceed even if the i is stalled. 
 
-### RAW - Read after write  
+#### RAW - Read after write  
 j tries to read before i writes it. 
 
 Note: read after read is not a hazard.  
 
 ### control dependences  
-1. can not move any instruction from inside then before if control statement. 
-2. can not move any instruction to the then block which is before if statement. 
+1. can not move any instruction from inside control statement to outside. 
+2. can not move any instruction from outside to inside. 
 
 A control dependences determines the execution of the order. 
+
+
 ## Memory Hieararchy
 
-	cpu -> cache => Memory ->io devices
-	250ps   1 ns     100ns      10ns
-	500bytes  64KB    1GB        1TB. 
+1. temporal locality  
+1. spatial locality  
+
+![Memory Hieararchy](memory_hieararchy.PNG)  
+
 
 	Each core has L1 cache and L2 cache but L3 cache is common for all core. 
 	
@@ -152,6 +157,18 @@ Write the results in register
 	- Unallocated memory is protected  
 	- text and data is read only  
 	
+## Acronyms:
+
+shot | meaning
+---|----
+CAS| Column Access Strobe
+RAS|Row access strobe
+ILP|instruction level parallelism
+TLP|Thread level parallelism
+CPI|Cycle per instructions
+MIPS|Microprocessor without Interlocked Pipelined Stages
+RISC|Reduce instruction set computer
+
 
 ## Questions  
 
