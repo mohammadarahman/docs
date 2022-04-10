@@ -60,7 +60,8 @@ design decision : where blocks/lines can be placed in cache.
 	if there are n block in a set then this is called n way set associative.  
 	caching data that is read only easy.  
 	but write is difficult  
-		how can the data be ensured to be kept consistant.  
+### how can the data be ensured to be kept consistant.  
+
 1. Write Through - update in cache and memory both.  
 1. write back - write back to memory only occurs when it is about to be replaced.  
 		both aproach can user write buffer to allow cache to proceed .  
@@ -68,7 +69,8 @@ design decision : where blocks/lines can be placed in cache.
 	Miss Rate: 
 	number of access missed from cache / total access attempt. 
 
-cache block: 
+### cache block:  
+
 	cache is like table.  
 	each row is a set  
 	direct map => each row has one column => associativity =1  
@@ -92,6 +94,23 @@ Some designer prefers Misses/ instruction  instead of miss rate.
 Avg memory access time = hit time + miss rate x miss penalty  
 
 Processor can execute other instruction during the miss time.  
+
+### Q1: where can a block be placed? 
+
+1. **direct map:** If each block has only one place in the cache.  
+1. **fully associative:** If a block can be placed anywhere.  
+1. **set associtive:** if a block can be placed in restricted set of places.  
+    if there are n blocks in a set then it is called *n-way set associative*  
+
+### Q2: how a block can be found?  
+
+caches have an address tag on each block.  
+
+--------------------------------------------------------
+|                  Block address             |  Block  |
+--------------------------------------------------------
+|   Tag                   |         Index    |   offset|
+--------------------------------------------------------
 
 **Virtual memory :** it means some objects can live on disk. Address space is broken into fixed size blocks called pages.  
 At any time each page resides either in main memory or disk.  
