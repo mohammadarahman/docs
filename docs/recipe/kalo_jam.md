@@ -1,9 +1,10 @@
 
 ## Ingredients 
 
-**for sweet:**  
-item|quantity
 
+**for sweet:**  
+
+item|quantity
 --|--
 milk|1/2 gallon
 vinegar|1/4 cup
