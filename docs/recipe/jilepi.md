@@ -45,4 +45,5 @@ lemon juice|1tbsp
 1. keep it covered in a warm place for 45 min to 1 hr. 
 1. use catchup bottle to fry jilapi to golden brown. 
 1. Syrap should be prepared ahead few min before. 
-1. put fried jilapi to the warm syrap. 
+1. put fried jilapi to the warm syrap.  
+1. 
