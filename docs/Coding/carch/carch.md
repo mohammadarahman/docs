@@ -106,11 +106,11 @@ Processor can execute other instruction during the miss time.
 
 caches have an address tag on each block.  
 
---------------------------------------------------------
-|                  Block address             |  Block  |
---------------------------------------------------------
-|   Tag                   |         Index    |   offset|
---------------------------------------------------------
+--------------------------------------------------------  
+|                  Block address             |  Block  |  
+--------------------------------------------------------  
+|   Tag                   |         Index    |   offset|  
+--------------------------------------------------------  
 
 **Virtual memory :** it means some objects can live on disk. Address space is broken into fixed size blocks called pages.  
 At any time each page resides either in main memory or disk.  
