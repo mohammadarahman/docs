@@ -1,7 +1,7 @@
 
 ## Ingredients 
 
-for sweet:  
+**for sweet:**  
 
 item|quantity
 --|--
@@ -13,7 +13,7 @@ butter|1/2 stick
 sugar|2TBSP
 baking powder|1tsp
 
-for syrap:  
+**for syrap:**  
 
 item|quantity
 --|--

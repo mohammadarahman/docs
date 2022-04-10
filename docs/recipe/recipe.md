@@ -13,4 +13,4 @@
 
 ## good link
 
-[collection of recipe] (https://www.banglarecipes.com.au/)  
+[collection of recipe](https://www.banglarecipes.com.au/)  
