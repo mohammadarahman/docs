@@ -1,15 +1,20 @@
 # doskey macro 
 
-## how to use:
+## how to use:  
+
 copy the below text and put into c:\dkm.txt
 and then run this registry command in command line with admin privilage. 
 ```
 reg add "HKLM\Software\Microsoft\Command Processor" /v Autorun /d "doskey /macrofile=c:\dkm.txt /f
 ```
 
-## c:/dkm.txt
+## c:/dkm.txt  
+
 ```
 ipfshell=forfiles /P C:\Windows\System32\Driverstore\FileRepository /M ipf_uf.exe /s /c "cmd /c taskkill /f /fi \"imagename eq ipf_uf.exe\" /fi \"session eq 1\" & @path client"  
+ipfscript=forfiles /P C:\Windows\System32\Driverstore\FileRepository /M ipf_uf.exe /s /c "cmd /c taskkill /f /fi \"imagename eq ipf_uf.exe\" /fi \"session eq 1\" & @path client -f $1 -q"  
+ipfdg2=forfiles /P C:\Windows\System32\Driverstore\FileRepository /M ipf_uf.exe /s /c "cmd /c taskkill /f /fi \"imagename eq ipf_uf.exe\" /fi \"session eq 1\" & @path client -f c:\dg2.txt -q"  
+ipftpg=forfiles /P C:\Windows\System32\Driverstore\FileRepository /M ipf_uf.exe /s /c "cmd /c taskkill /f /fi \"imagename eq ipf_uf.exe\" /fi \"session eq 1\" & @path client -f c:\tpg.txt -q"  
 odvp1=forfiles /P C:\Windows\System32\Driverstore\FileRepository /M ipf_uf.exe /s /c "cmd /c taskkill /f /fi \"imagename eq ipf_uf.exe\" /fi \"session eq 1\" & @path client -c \"tableobject set odvp 0 d0 $1!0!0!0!0!0\" -q"  
 odvp2=forfiles /P C:\Windows\System32\Driverstore\FileRepository /M ipf_uf.exe /s /c "cmd /c taskkill /f /fi \"imagename eq ipf_uf.exe\" /fi \"session eq 1\" & @path client -c \"tableobject set odvp 0 d0 0!$1!0!0!0!0\" -q"  
 ip=ipconfig $B findstr IPv4  
@@ -25,4 +30,18 @@ remdtt="C:\Program Files\Intel\Intel(R) Dynamic Tuning Technology\Uninstall\inst
 remdttui="C:\Program Files\Intel\Intel(R) Dynamic Tuning Technology User Interface\Uninstall\install.exe" -uninstall -s & timeout 15  
 remipf="C:\Program Files\Intel\Intel(R) Innovation Platform Framework\Uninstall\install.exe" -uninstall -s & timeout 15  
 remipfui="C:\Program Files\Intel\Intel(R) Innovation Platform Framework User Interface\Uninstall\install.exe" -uninstall -s & timeout 15  
+```
+
+## c:/tpg.txt  
+
+```
+participant create CONJURE MCPP 'Multi Chip Package Participant' INT3530 38
+tableobject set ppcc MCPP d0 02:0,30000,65000,0,0,500!1,105000,105000,0,0,500!2,4294967295,4294967295,4294967295,4294967295,4294967295!3,195000,195000,0,0,500
+setp_part mcpp 393 d0 255 1
+participant create ACPI NVDG 'NV Discrete GFX Participant' INT340D 44
+tableobject set ppcc NVDG d0 02:0,6000,25000,0,32000,500!1,40000,42000,0,32000,500!2,4294967295,4294967295,4294967295,4294967295,4294967295!3,74000,74000,0,32000,500
+setp_part nvdg 393 d0 255 1
+
+dptf tableobject set tpga "01:\_SB_.PC00.TCPU,9,50!\_UP_.MCPP,38,4294967295!\_LP_.NVDG,44,50" dptf /shared/tables/tpga/t
+dptf tableobject set tpga "01:\_SB_.PC00.TCPU,9,50!\_UP_.MCPP,38,4294967295!\_LP_.NVDG,44,50" 
 ```
