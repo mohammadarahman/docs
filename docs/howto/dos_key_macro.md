@@ -34,14 +34,19 @@ remipfui="C:\Program Files\Intel\Intel(R) Innovation Platform Framework User Int
 
 ## c:/tpg.txt  
 
-```
-participant create CONJURE MCPP 'Multi Chip Package Participant' INT3530 38
-tableobject set ppcc MCPP d0 02:0,30000,65000,0,0,500!1,105000,105000,0,0,500!2,4294967295,4294967295,4294967295,4294967295,4294967295!3,195000,195000,0,0,500
-setp_part mcpp 393 d0 255 1
-participant create ACPI NVDG 'NV Discrete GFX Participant' INT340D 44
-tableobject set ppcc NVDG d0 02:0,6000,25000,0,32000,500!1,40000,42000,0,32000,500!2,4294967295,4294967295,4294967295,4294967295,4294967295!3,74000,74000,0,32000,500
-setp_part nvdg 393 d0 255 1
-
-dptf tableobject set tpga "01:\_SB_.PC00.TCPU,9,50!\_UP_.MCPP,38,4294967295!\_LP_.NVDG,44,50" dptf /shared/tables/tpga/t
-dptf tableobject set tpga "01:\_SB_.PC00.TCPU,9,50!\_UP_.MCPP,38,4294967295!\_LP_.NVDG,44,50" 
+```  
+config set @dptf /features/tpg_policy 1  
+tableobject set idsp 1 D0 "63BE270F-1C11-48FD-A6F7-3AF253FF3E2D!9E04115A-AE87-4D1C-9500-0F3E340BFE75!FF227DFE-2324-A543-81A9-5C70423ADC2E!6ED722A7-9240-48A5-B479-31EEF723D7CF!92951065-6427-4B30-9737-13CC70EFA21A"  
+tableobject set idsp 1 D0 "63BE270F-1C11-48FD-A6F7-3AF253FF3E2D!9E04115A-AE87-4D1C-9500-0F3E340BFE75!FF227DFE-2324-A543-81A9-5C70423ADC2E!6ED722A7-9240-48A5-B479-31EEF723D7CF"  
+participant create CONJURE MCPP 'Multi Chip Package Participant' INT3530 38  
+tableobject set ppcc MCPP d0 02:0,30000,65000,0,0,500!1,105000,105000,0,0,500!2,4294967295,4294967295,4294967295,4294967295,4294967295!3,195000,195000,0,0,500  
+setp_part mcpp 393 d0 255 1  
+participant create ACPI NVDG 'NV Discrete GFX Participant' INT340D 44  
+sleep 1000  
+tableobject set ppcc NVDG d0 02:0,6000,25000,0,32000,500!1,40000,42000,0,32000,500!2,4294967295,4294967295,4294967295,4294967295,4294967295!3,74000,74000,0,32000,500  
+setp_part nvdg 393 d0 255 1  
+dptf tableobject set tpga "01:\_SB_.PC00.TCPU,9,50!\_UP_.MCPP,38,4294967295!\_LP_.NVDG,44,50" dptf /shared/tables/tpga/t  
+dptf tableobject set tpga "01:\_SB_.PC00.TCPU,9,50!\_UP_.MCPP,38,4294967295!\_LP_.NVDG,44,50"  
+dptf tableobject set tpga "01:\_SB_.PC00.TCPU,9,50!\_UP_.MCPP,38,4294967295!\_LP_.NVDG,44,50" dptf /shared/tables/tpga/t  
+dptf tableobject set tpga "01:\_SB_.PC00.TCPU,9,50!\_UP_.MCPP,38,4294967295!\_LP_.NVDG,44,50"  
 ```
