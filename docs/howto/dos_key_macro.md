@@ -47,6 +47,22 @@ tableobject set ppcc NVDG d0 02:0,6000,25000,0,32000,500!1,40000,42000,0,32000,5
 setp_part nvdg 393 d0 255 1  
 dptf tableobject set tpga "01:\_SB_.PC00.TCPU,9,50!\_UP_.MCPP,38,4294967295!\_LP_.NVDG,44,50" dptf /shared/tables/tpga/t  
 dptf tableobject set tpga "01:\_SB_.PC00.TCPU,9,50!\_UP_.MCPP,38,4294967295!\_LP_.NVDG,44,50"  
-dptf tableobject set tpga "01:\_SB_.PC00.TCPU,9,50!\_UP_.MCPP,38,4294967295!\_LP_.NVDG,44,50" dptf /shared/tables/tpga/t  
-dptf tableobject set tpga "01:\_SB_.PC00.TCPU,9,50!\_UP_.MCPP,38,4294967295!\_LP_.NVDG,44,50"  
+```  
+
+## c:/dg2.txt  
+
+```
+tableobject set idsp 1 D0 "A75E38B4-A7AC-4A7B-8BDC-1A1572BE318E"
+tableobject set idsp 1 D0 "A75E38B4-A7AC-4A7B-8BDC-1A1572BE318E!92951065-6427-4B30-9737-13CC70EFA21A"
+participant create CONJURE MCPP 'Multi Chip Package Participant' INT3530 38  
+tableobject set ppcc MCPP d0 02:0,30000,65000,0,0,500!1,105000,105000,0,0,500!2,4294967295,4294967295,4294967295,4294967295,4294967295!3,195000,195000,0,0,500  
+setp_part mcpp 393 d0 255 1 
+participant create ACPI IDG2 'IA Discrete GFX Device 2 Participant' INT340D 43
+sleep 1000
+tableobject set ppcc 65589 D0 "02:0,5000,25000,0,32000,500!1,41000,41000,0,32000,500!2,4294967295,4294967295,4294967295,4294967295,4294967295!3,74000,74000,0,32000,500"
+setp_part IDG2 SET_PARTICIPANT_CAPABILITIES_EVAL D0 255 "1"
+setp_part nvdg 393 d0 255 1  
+tableobject set psh2 1 D0 dptf /shared/tables/psh2/dg2bias "01:\_SB_.PC00.TCPU,9,50!\_UP_.MCPP,38,4294967295!\_LP_.IDG2,43,50"
+tableobject set psh2 1 D0 "01:\_SB_.PC00.TCPU,9,50!\_UP_.MCPP,38,4294967295!\_LP_.IDG2,43,50"
+
 ```
