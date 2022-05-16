@@ -5,7 +5,7 @@
 for 6 Cornish chicken
 
 **1 cup = 16 tbsp**   
-**1 tbsp = 3 tsp **   
+__1 tbsp = 3 tsp__
   
 paste/chop items| quantity 
 --|--
@@ -32,13 +32,13 @@ powder items|quantity 1 | quantity 2
 জিরা | 1.5 tbsp|4.5 tsp
 ধনিয়া|0.5 tbsp|1.5 tsp
 chilli |0.5 tbsp|1.5 tsp
-এলাচি 2 |0.5 tbsp|1.5 tsp
+এলাচি 2 |0.5 tbsp|1.5 tsp  
   
   
 add at last items| quantity 
 --|--
 জৈয়ত্রী|0.25 tbsp|0.75 tsp
-জয়ফল smash| 0.5
+জয়ফল smash| 0.5  
   
   
 
@@ -60,11 +60,11 @@ do all 3 below steps one after another.
 
 
 ### make roasts: 
-1. mix **milk2 / yogurt2 / জিরা / ধনিয়া/ chili / এলাচি 2 ** with the left over spice from marination.   
+1. mix __milk2/yogurt2/ জিরা / ধনিয়া/ chili/এলাচি 2__ with the left over spice from marination.   
 1. start frying **chopped onion and chilli** from the leftover oil from chicken fry.  
 1. cook for ~15 min  
 1. add mix from step 1  
-1. add **ghee ~2tbsp **  
+1. add **ghee 2tbsp**  
 1. cook for 5 more min  
 1. add fried chicken  
 1. cook for 5~ 10 min  
