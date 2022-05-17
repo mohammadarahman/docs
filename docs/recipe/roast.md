@@ -12,7 +12,9 @@ paste/chop items| quantity
 Onion1| 4 large chop
 onion2| 4 large paste
 ginger1|0.5 tsp
+ginger2|1/3 cup
 garlic1|0.5 tsp
+garlic1|1/3 cup
 এলাচি | 8pcs
 দারচিনি|2 large
 তেজপাতা|7 pcs
@@ -60,10 +62,11 @@ do all 3 below steps one after another.
 
 
 ### make roasts: 
-1. mix __milk2/yogurt2/ জিরা / ধনিয়া/ chili/এলাচি 2__ with the left over spice from marination.   
-1. start frying **chopped onion and chilli** from the leftover oil from chicken fry.  
-1. cook for ~15 min  
+1. mix __milk2/yogurt2/ জিরা / ধনিয়া/ chili/এলাচি 2/salt__ with the left over spice from marination.   
+1. start frying **chopped onion and chilli** from the leftover oil from chicken fry till golden.  
 1. add mix from step 1  
+1. add __onion2 garlic2 ginger2__  
+1. cook for ~15 min  
 1. add **ghee 2tbsp**  
 1. cook for 5 more min  
 1. add fried chicken  
