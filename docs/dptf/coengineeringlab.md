@@ -74,12 +74,11 @@ system id|locker id|gateway ip|certificate common name
 ## Connecting to the system  
 
 ### new method  
-    1. save private key to a folder. 
-        - ![export using putty](coenginneringlab/exportssh.PNG)  
-    2. set the folder permision as per below
-        -![folder permision for private key](coenginneringlab/cer_security_settings.PNG)  
-    3. update the config file for ssh as below. 
-    
+1. save private key to a folder. 
+    - ![export using putty](coenginneringlab/exportssh.PNG)  
+2. set the folder permision as per below
+    - ![folder permision for private key](coenginneringlab/cer_security_settings.PNG)  
+3. update the config file for ssh as below. 
     ```
     Host sshserver   
     HostName 192.55.64.252  
@@ -95,8 +94,8 @@ system id|locker id|gateway ip|certificate common name
     LocalForward 10445 192.168.1.4:3389   
     LocalForward 10022 192.168.1.2:22  
     ```
-    4. use the command ssh sdp to connect to tunnel.  
-    5. rdp to localhost:10444  
+4. use the command ssh sdp to connect to tunnel.  
+5. rdp to localhost:10444  
 
 ### old method  
 
