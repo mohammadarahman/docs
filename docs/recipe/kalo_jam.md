@@ -49,3 +49,8 @@ water|5 cup
 1. boil balls for 25 min covered.  
 1. let it stay covered for few hours  
 
+
+## Alert  
+
+1. dont uncover while boiling on syrap  
+1. 

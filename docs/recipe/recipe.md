@@ -5,6 +5,8 @@
 [Kalo Jam](kalo_jam.md)  
 [Jilapi](jilepi.md)  
 [Boondia](boondia.md)  
+[বালুসাই](balusai.md)  
+[sugar cookies](cookies.md)  
 
 ## snacks  
 

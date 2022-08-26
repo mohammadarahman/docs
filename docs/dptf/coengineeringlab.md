@@ -73,6 +73,33 @@ system id|locker id|gateway ip|certificate common name
 
 ## Connecting to the system  
 
+### new method  
+    1. save private key to a folder. 
+        - ![export using putty](coenginneringlab/exportssh.PNG)  
+    2. set the folder permision as per below
+        -![folder permision for private key](coenginneringlab/cer_security_settings.PNG)  
+    3. update the config file for ssh as below. 
+    
+    ```
+    Host sshserver   
+    HostName 192.55.64.252  
+    User guest   
+    identityfile "C:\cert\t.ssh"  
+    #ProxyCommand "C:\Program Files\Git\mingw64\bin\connect.exe" -S PROXYSERVER:PROXYPORT %h %p   
+    Host sdp  
+    HostName 192.168.1.2  
+    User sdp   
+    ProxyCommand ssh.exe -W %h:%p sshserver   
+    LocalForward 10443 192.168.1.3:443   
+    LocalForward 10444 192.168.1.3:3389   
+    LocalForward 10445 192.168.1.4:3389   
+    LocalForward 10022 192.168.1.2:22  
+    ```
+    4. use the command ssh sdp to connect to tunnel.  
+    5. rdp to localhost:10444  
+
+### old method  
+
 1. Double click the saved session `onecloudclient`  
 	- when prompted for password use `$harktank2Go`  
 1. Go To connection ->SSH -> tunnels 

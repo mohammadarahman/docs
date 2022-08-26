@@ -5,7 +5,7 @@
 copy the below text and put into c:\dkm.txt
 and then run this registry command in command line with admin privilage. 
 ```
-reg add "HKLM\Software\Microsoft\Command Processor" /v Autorun /d "doskey /macrofile=c:\dkm.txt /f
+reg add "HKLM\Software\Microsoft\Command Processor" /v Autorun /d doskey /macrofile=c:\dkm.txt /f
 ```
 
 ## c:/dkm.txt  
@@ -30,6 +30,7 @@ remdtt="C:\Program Files\Intel\Intel(R) Dynamic Tuning Technology\Uninstall\inst
 remdttui="C:\Program Files\Intel\Intel(R) Dynamic Tuning Technology User Interface\Uninstall\install.exe" -uninstall -s & timeout 15  
 remipf="C:\Program Files\Intel\Intel(R) Innovation Platform Framework\Uninstall\install.exe" -uninstall -s & timeout 15  
 remipfui="C:\Program Files\Intel\Intel(R) Innovation Platform Framework User Interface\Uninstall\install.exe" -uninstall -s & timeout 15  
+autologon = echo y| reg add "HKLM\Software\Microsoft\Windows NT\CurrentVersion\Winlogon" /v AutoAdminLogon  /d 1 & echo y| reg add "HKLM\Software\Microsoft\Windows NT\CurrentVersion\Winlogon" /v DefaultUserName   /d Administrator & echo y| reg add "HKLM\Software\Microsoft\Windows NT\CurrentVersion\Winlogon" /v DefaultPassword   /d intel123  
 ```
 
 ## c:/tpg.txt  

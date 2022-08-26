@@ -27,7 +27,7 @@ lemon juice|0.5
 salt|
 sugar| 3tpsp
 Nuts and kismis paste| 4 TBSP  
-  
+
   
 powder items|quantity 1 | quantity 2
 --|--|--
