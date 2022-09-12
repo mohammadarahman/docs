@@ -4,7 +4,7 @@
 copy the below text and put into c:\dkm.txt
 and then run this registry command in command line with admin privilage. 
 ```
-reg add "HKLM\Software\Microsoft\Command Processor" /v Autorun /d "doskey /macrofile=c:\dkm.txt /f
+reg add "HKLM\Software\Microsoft\Command Processor" /v Autorun /d "doskey /macrofile=c:\dkm.txt /f"
 ```
 
 ## c:/dkm.txt
