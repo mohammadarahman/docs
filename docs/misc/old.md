@@ -150,10 +150,7 @@ Unified Build Image & Test UBIT - Standard DPTF8 Project - Developer
 install this and deselect autoupdate. 
 \\chakotay\SoftVal\DPTF_tools\SpecFlow.DamageControl
 
-# WINdows 
-
-## power shell script  
-
+# MISC
 
 ## how to hibernate 
 - sometime hibernate icon might be missing. 
@@ -161,17 +158,11 @@ install this and deselect autoupdate.
 
 ## Turn off fan - mm command 
 
-- goto bios shell (EFI shell may be)
+- goto bios shell 
 - mm 66 f3 -w 1 -io 
 
-## disable driver signature check  
-
-1. bcdedit /set nointegritychecks on
-1. bcdedit /set testsigning on
-
-## powershell script enable 
-
-1. Set-ExecutionPolicy Unrestricted  
+## UI folder / other folder 
+- c:\program files\intel\intel(r) dynamic tuning\ 
 
 ## log path 
 - c:\windows\system32\drivers\driverdata\intel\dptf\log 
