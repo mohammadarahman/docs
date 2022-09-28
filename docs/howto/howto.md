@@ -6,4 +6,4 @@
 [dos key macro](dos_key_macro.md)  
 [get access to secure folder](get_access_to_secure_folder.md)  
 
-[MISC](misc.md)
+[MISC](misc.md)  
