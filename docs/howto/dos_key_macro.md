@@ -24,8 +24,10 @@ watermark=slmgr /skms kms.intel.com $t slmgr /ipk W269N-WFGWX-YVC9B-4J6C9-T83GX 
 unzip=forfiles /m *.zip /c "cmd /c mkdir @fname & tar -xf @path -C @fname"  
 un7z=forfiles /m *.7z /c "cmd /c 7z e @path -o@fname -y"  
 unzipdir=forfiles /p $1 /m *.zip /c "cmd /c mkdir $1\\@fname & tar -xf @path -C $1\\@fname"   
-getdtt=mkdir c:\build\$1 & cd c:\build\$1 & curl -u rahmanma:$2 https://ubit-artifactory-or.intel.com/artifactory/dptf-local/Build_Artifacts/Windows/1.0.$1/IPF-WindowsIpfUiInstaller-1.0.$1.zip -o IPF-WindowsIpfUiInstaller-1.0.$1.zip & curl -u rahmanma:$2 https://ubit-artifactory-or.intel.com/artifactory/dptf-local/Build_Artifacts/Windows/1.0.$1/IPF-WindowsPACInstaller-1.0.$1.zip -o IPF-WindowsPACInstaller-1.0.$1.zip & curl -u rahmanma:$2 https://ubit-artifactory-or.intel.com/artifactory/dptf-local/Build_Artifacts/Windows/1.0.$1/IPF-WindowsDttUiInstaller-9.0.$1.zip -o IPF-WindowsDttUiInstaller-9.0.$1.zip & curl -u rahmanma:$2 https://ubit-artifactory-or.intel.com/artifactory/dptf-local/Build_Artifacts/Windows/1.0.$1/IPF-WindowsDttPACInstaller-9.0.$1.zip -o IPF-WindowsDttPACInstaller-9.0.$1.zip  
-install=forfiles /m *install.exe /s /c "cmd /c @path -s -overwrite & pause"  
+install_old=forfiles /m *install.exe /s /c "cmd /c @path -s -overwrite & pause"  
+install=forfiles /s /m *.inf /c "cmd /c echo INSTALLING --- @fname & pnputil -a  @path -i"
+fixrw=reg add "HKLM\SYSTEM\CurrentControlSet\Control\CI\Config" /v VulnerableDriverBlocklistEnable /d 0 /f
+getdtt=mkdir c:\build\$1 & cd c:\build\$1 & curl -u rahmanma:$2 https://ubit-artifactory-or.intel.com/artifactory/dptf-local/Build_Artifacts/Windows/1.0.$1/IPF-WindowsPACInstaller-1.0.$1.zip -o IPF-WindowsPACInstaller-1.0.$1.zip & curl -u rahmanma:$2 https://ubit-artifactory-or.intel.com/artifactory/dptf-local/Build_Artifacts/Windows/1.0.$1/IPF-WindowsDttUiInstaller-9.0.$1.zip -o IPF-WindowsDttUiInstaller-9.0.$1.zip & curl -u rahmanma:$2 https://ubit-artifactory-or.intel.com/artifactory/dptf-local/Build_Artifacts/Windows/1.0.$1/IPF-WindowsDttPACInstaller-9.0.$1.zip -o IPF-WindowsDttPACInstaller-9.0.$1.zip  
 remdtt="C:\Program Files\Intel\Intel(R) Dynamic Tuning Technology\Uninstall\install.exe" -uninstall -s & timeout 15  
 remdttui="C:\Program Files\Intel\Intel(R) Dynamic Tuning Technology User Interface\Uninstall\install.exe" -uninstall -s & timeout 15  
 remipf="C:\Program Files\Intel\Intel(R) Innovation Platform Framework\Uninstall\install.exe" -uninstall -s & timeout 15  
@@ -67,3 +69,4 @@ tableobject set psh2 1 D0 dptf /shared/tables/psh2/dg2bias "01:\_SB_.PC00.TCPU,9
 tableobject set psh2 1 D0 "01:\_SB_.PC00.TCPU,9,50!\_UP_.MCPP,38,4294967295!\_LP_.IDG2,43,50"
 
 ```
+
