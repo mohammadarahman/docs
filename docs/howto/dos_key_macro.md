@@ -62,7 +62,7 @@ participant create ACPI IDG2 'IA Discrete GFX Device 2 Participant' INT340D 43
 sleep 1000
 tableobject set ppcc 65589 D0 "02:0,5000,25000,0,32000,500!1,41000,41000,0,32000,500!2,4294967295,4294967295,4294967295,4294967295,4294967295!3,74000,74000,0,32000,500"
 setp_part IDG2 SET_PARTICIPANT_CAPABILITIES_EVAL D0 255 "1"
-setp_part nvdg 393 d0 255 1  
+setp_part IDG2 393 d0 255 1  
 tableobject set psh2 1 D0 dptf /shared/tables/psh2/dg2bias "01:\_SB_.PC00.TCPU,9,50!\_UP_.MCPP,38,4294967295!\_LP_.IDG2,43,50"
 tableobject set psh2 1 D0 "01:\_SB_.PC00.TCPU,9,50!\_UP_.MCPP,38,4294967295!\_LP_.IDG2,43,50"
 
