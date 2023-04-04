@@ -6,7 +6,9 @@
 |N|S|N|S|N|S|Comment|
 |--|--|--|--|--|--|--|
 |2♣|  |  |  |  |  | 22+ hcp |
-||2♦|  |  |  |  |  |
+|2♣|2♦|  |  |  |  | no 4 card major |
+|2♣|2♥|  |  |  |  | 4+H|
+|2♣|2♠|  |  |  |  | 4+S|
 
 
 
@@ -15,24 +17,37 @@
     - Must have 5 card and must have 12~21 HCP
 
 
-|N|S|N|S|N|S|Comment|
-|--|--|--|--|--|--|--|
-|1♥|  |  |  |  |  | 5+H ,12~21 hcp |
-||1N |  |  |  |  | 6+ pts, 1 round force, opener must call |
-||2♦/2♣|  |  |  |  | Game forcing, 4+ card, dont stop until game call |
-|| |2♥ |  |  |  | Game forcing, 5+ card, dont stop until game call |
-|| |2♠ |  |  |  | 3+ card|
-||2N |  |  |  |  | 6+ pts, 1 round force, opener must call |  
-
-
-|N|S|N|S|N|S|Comment|
-|--|--|--|--|--|--|--|
-|1♠|  |  |  |  |  | 5+S ,12~21 hcp |
-||1N |  |  |  |  | 6+ pts, 1 round force, opener must call |
-||2♦/2♣|  |  |  |  | Game forcing, 4+ card, dont stop until game call |
-|| |2♥ |  |  |  | Game forcing, 5+ card, dont stop until game call |
-|| |2♠ |  |  |  | 3+ card|
-||2N |  |  |  |  | 6+ pts, 1 round force, opener must call |  
+|N |S |N |S |N |S|Comment|  
+|--|--|--|--|--|--|--|  
+|1♥|  |  |  |  |  |5+H ,12~21 hcp, no 5S |  
+|1♥|1N|  |  |  |  |6~12 pts, 1 round force, opener must call,NO 4 card support, no 4 Spade, not a game hand |  
+|1♥|1N|2m|  |  |  |3+m and continue call|  
+|1♥|1N|2m|2♥|  |  |6~9 pts|  
+|1♥|2m|  |  |  |  |13+dummy pts, Game forcing, 4+ card, dont stop until game call |  
+|1♥|3♣|  |  |  |  |7-9 dummy pts, 4H |  
+|1♥|3♦|  |  |  |  |10~12 dummy pts , 4H |  
+|1♥|2♥|  |  |  |  |3+ cards, 8-10pts constructive raise |  
+|1♥|3♥|  |  |  |  |0~6 dummy pts 4+H|  
+|1♥|2N|  |  |  |  |15+ dummy pts, jacoby 2N , 4H |   
+|1♥|2N|3X|  |  |  |singleton / void on X|  
+|1♥|3N|  |  |  |  |13+ dummy pts, 3H|  
+  
+  
+|N|S|N|S|N|S|Comment|  
+|--|--|--|--|--|--|--|  
+|1♠|  |  |  |  |  |5+S ,12~21 hcp , might have 5H|  
+|1♠|1N|  |  |  |  |6~12 pts, 1 round force, opener must call , no 4 card support, not a game hand |  
+|1♠|1N|2m|  |  |  |3+m and continue call|  
+|1♠|1N|2m|2♠|  |  |6~9 pts|  
+|1♠|2m|  |  |  |  |13+dummy pts, 12+ pts ,Game forcing, 4+ card, dont stop until game call |  
+|1♥|3♣|  |  |  |  |7-9 dummy pts, 4S |  
+|1♥|3♦|  |  |  |  |10~12 dummy pts , 4S | 
+|1♠|2♥|  |  |  |  |12+ pts, Game forcing, 5+ card, dont stop until game call |  
+|1♠|2♠|  |  |  |  |3+ card,8-10pts constructive raise|  
+|1♠|3♠|  |  |  |  |0~6 dummy pts 4+S|  
+|1♠|2N|  |  |  |  |15+ dummy pts, jacoby 2N , 4S|  
+|1♠|2N|3X|  |  |  |singleton / void on X|   
+|1♠|3N|  |  |  |  |13+ dummy pts, 3S|  
 
 ## Opening No Trump:
     - you must have balance card with only one doubleton. 
@@ -42,26 +57,43 @@
 
 |N|S|N|S|N|S|Comment|
 |--|--|--|--|--|--|--|
-|1N|  |  |  |  |  | no 5+ card major,12~21 hcp |
-||2♣ |  |  |  |  | stayman asking for 4 card major |
-|||2♥|  |  |  | 4+H card  |
-|||2♠|  |  |  | 4+S card  |
-||2♦|  |  |  |  | 5+ hearts card(jacoby xfer) |
-||2♥| |  |  |  | 5+ Spade card(jacoby xfer) |
-
-
+|1N|  |  |  |  |  | no 5+ card major,15~18 hcp,MAX one doubleton even no block, no singleton,  |
+|1N|2♣ |  |  |  |  | stayman asking for 4 card major |
+|1N|2♣ |2♥|  |  |  | 4 card Hearts |
+|1N|2♣ |2♠|  |  |  | 4 card spade |
+|1N|2♦|  |  |  |  | 5+ hearts card(jacoby xfer) |
+|1N|2♦|2♥  |  |  |  | accept xfer |
+|1N|2♥| |  |  |  | 5+ Spade card(jacoby xfer) |
+|1N|2♦|2♠  |  |  |  | accept xfer|
+  
+  
 ## Opening Minor:
     - must have 3 card minor with 12~21 HCP(most of the time 4 dice minimum and 3 clubs minimum) 
     
 |N|S|N|S|N|S|Comment|
 |--|--|--|--|--|--|--|
-|1♣| |  |  |  |  | 3+C |
-
-
+|1♣| |  |  |  |  | 3+C ,12~21 hcp, no 4M/5D, C>=D|
+|1♣|1♥|  |  |  |  | 4+H, 6+pts|
+|1♣|1♠|  |  |  |  | 4+S, 6+pts|
+|1♣|1N|  |  |  |  | no 4M , 8~10pts|
+|1♣|2♣|  |  |  |  | 13+ dummy pts, 4+C|
+|1♣|2M|  |  |  |  | weak jump shift|
+|1♣|2N|  |  |  |  | 10~12 pts/ balanced. not jacoby 2N|
+|1♣|3♣|  |  |  |  | 5~9 dummy pts, 4+C|  
+|1♣|3N|  |  |  |  | 13~15 pts/ balanced|
+  
 |N|S|N|S|N|S|Comment|
 |--|--|--|--|--|--|--|
 |1♦| |  |  |  |  | 3+D/mostly 4+D |  
-
+|1♦|1♥|  |  |  |  | 4+H, 6+pts|
+|1♦|1♠|  |  |  |  | 4+S, 6+pts|
+|1♦|1N|  |  |  |  | no 4M , 8~10pts|
+|1♦|2♣|  |  |  |  | 5~12 dummy pts, 6+C|
+|1♦|2♦|  |  |  |  | 13+ dummy pts, 4+D|
+|1♦|2M|  |  |  |  | weak jump shift|
+|1♦|2N|  |  |  |  | 10~12 pts/ balanced. not jacoby 2N|
+|1♦|3♦|  |  |  |  | 5~9 dummy pts, 4+D|  
+|1♦|3N|  |  |  |  | 13~15 pts/ balanced|
   
 ## Opening with weak hand:
     - if you are one of the first 2 caller. dont call 2 with good hand. 
@@ -70,9 +102,7 @@
     - For third / 4th hand when partner passed then need high points to call 2 of a suit
 
 ## General Notes: 
-    `\u2660`   :spades: :spade:
-    `\u2665`    :hearts: :heart:
-    `\u2666`    :dice: :dices: :dimonds: :dimond:
-    `\u2663`    :club: :clubs: 
+    - redouble denies 3 card support
+    
     
     
