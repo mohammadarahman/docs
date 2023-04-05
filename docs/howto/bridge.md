@@ -38,7 +38,7 @@
 |1♥|4♣|  |  |  |  |13+ dummy pts,splinter, shortness in C, 4H|  
 |1♥|4♦|  |  |  |  |13+ dummy pts,splinter, shortness in D, 4H|  
 |1♥|3♠|  |  |  |  |13+ dummy pts,splinter, shortness in S, 4H|  
- 
+   
   
   
 |N|S|N|S|N|S|Comment|  
@@ -128,7 +128,9 @@
   
 ## Slam bidding: 
 
-### Gerber over any *NT*
+### Gerber over any *NT*  
+
+
 |call|response|meaning| 
 |--|--|--|
 |4♣||asking for A|
@@ -140,7 +142,7 @@
 |5♣|5♦|0/4 K|
 |5♣|5♥|1 K|
 |5♣|5♠|2 K|
-|5♣|5N|3 K|
+|5♣|5N|3 K|  
   
   
 ### Blackwood convention
