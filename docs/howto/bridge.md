@@ -1,21 +1,23 @@
 ﻿# Bridge 101  
 
 # Index  
-  
-  [2♣](#2♣)
-  [1♥](#1♥)
-  [1♠](#1♠)
-  [1N](#1N)
-  [1♣](#1♣)
-  [1♦](#1♦)
-  [slam](#slam)
-  [score](#score)
-  [notes](#notes)
-  [weak 2 open](#wk2)
-  
+<a name="index">  
+  [2♣](#2♣)   
+  [1♥](#1♥)  
+  [1♠](#1♠)  
+  [1N](#1N)  
+  [1♣](#1♣)  
+  [1♦](#1♦)  
+  [slam](#slam)  
+  [score](#score)  
+  [notes](#notes)  
+  [weak 2 open](#wk2)  
+
   
 <a name="2♣"/>
-## Opening 2♣:  
+
+## Opening 2♣:  [△](#index)
+
     - Must have 21+ HCP and Partners must respond if oponent doesnt intercept. 
     
 |N|S|N|S|N|S|Comment|
@@ -35,8 +37,9 @@
     - Must have 5 card and must have 12~21 HCP  
     
 <a name="1♥"/>
-### Hearts  
-  
+### Hearts  [△](#index)
+ 
+
 |N |S |N |S |N |S|Comment|  
 |--|--|--|--|--|--|--|  
 |1♥|  |  |  |  |  |5+H ,12~21 hcp, can have 5S |  
@@ -64,7 +67,7 @@
 
 
 <a name="1♠"/>
-### Spades  
+### Spades  [△](#index)
     
   
 |N|S|N|S|N|S|Comment|  
@@ -93,7 +96,7 @@
 
 
 <a name="1N"/>
-## Opening No Trump:
+## Opening No Trump:  [△](#index)
     - you must have balance card with only one doubleton. 
     - No 5 card major
     - 15-17 HCP for 1N
@@ -130,12 +133,12 @@
 |1N|2N|  |  |  |  | transfer to D / No Trump|
   
   
-## Opening Minor:
+## Opening Minor:  [△](#index)
     - must have 3 card minor with 12~21 HCP(most of the time 4 dice minimum and 3 clubs minimum) 
 
   
 <a name="1♣"/>   
-### Clubs  
+### Clubs    [△](#index)
       
 |N|S|N|S|N|S|Comment|
 |--|--|--|--|--|--|--|
@@ -151,7 +154,7 @@
    
    
 <a name="1♦"/> 
-### Dimonds  
+### Dimonds   [△](#index)
     
 |N|S|N|S|N|S|Comment|
 |--|--|--|--|--|--|--|
@@ -167,7 +170,7 @@
 |1♦|3N|  |  |  |  | 13~15 pts/ balanced|
    
 <a name="slam"/>    
-## Slam bidding: 
+## Slam bidding:  [△](#index)
 
 ### Gerber over any *NT*  
 
@@ -208,14 +211,14 @@ Dont use when
 
 
 <a name="wk2"/> 
-## Opening with weak hand:
+## Opening with weak hand: [△](#index)
     - if you are one of the first 2 caller. dont call 2 with good hand. 
     - open 2 of a suit other than clubs with 7~11 points with 6 card of the suit. only applies for first 2 caller. 
     - Prefered to have 2 of 5 top card apply judgement. 
     - For third / 4th hand when partner passed then need high points to call 2 of a suit
 
 <a name="notes"/> 
-## General Notes: 
+## General Notes:  [△](#index)
     - redouble denies 3 card support
     - When defending at no trump NEVER lead your partner’s bid suit if you only have a singleton in his/her suit!!
 
@@ -227,7 +230,7 @@ Dont use when
     
 <a name="score"/>
    
-## Scoring
+## Scoring  [△](#index)
   
   
   ![Scoring 1](bridge/scoring1.png)  
