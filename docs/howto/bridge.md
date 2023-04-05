@@ -182,4 +182,9 @@ Dont use when
 - dummy points = HCP + short suit points
     
     
+## Scoring
+  
+  
+  ![Scoring 1](bridge/scoring1.png)  
     
+  ![Scoring 2](bridge/scoring2.png)  
