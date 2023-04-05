@@ -6,9 +6,12 @@
 |N|S|N|S|N|S|Comment|
 |--|--|--|--|--|--|--|
 |2♣|  |  |  |  |  | 22+ hcp |
-|2♣|2♦|  |  |  |  | no 4 card major |
-|2♣|2♥|  |  |  |  | 4+H|
-|2♣|2♠|  |  |  |  | 4+S|
+|2♣|2♦|  |  |  |  | <8 pts |
+|2♣|2♥|  |  |  |  | 7+pts, 5+H|
+|2♣|2♠|  |  |  |  | 7+pts,5+S|
+|2♣|3♣|  |  |  |  | 7+pts,5+C|
+|2♣|3♦|  |  |  |  | 7+pts,5+C|
+|2♣|2N|  |  |  |  | no 5 card suit|
 
 
 
@@ -19,7 +22,7 @@
 
 |N |S |N |S |N |S|Comment|  
 |--|--|--|--|--|--|--|  
-|1♥|  |  |  |  |  |5+H ,12~21 hcp, no 5S |  
+|1♥|  |  |  |  |  |5+H ,12~21 hcp, can have 5S |  
 |1♠|  |  |  |  |  |4+H ,7+ hcp, no 5S |  
 |1♥|1N|  |  |  |  |6~12 pts, *1 round force*, opener must call,NO 4 card support, no 4 Spade, not a game hand |  
 |1♥|1N|2m|  |  |  |3+m and continue call|  
@@ -40,7 +43,7 @@
   
 |N|S|N|S|N|S|Comment|  
 |--|--|--|--|--|--|--|  
-|1♠|  |  |  |  |  |5+S ,12~21 hcp , might have 5H|  
+|1♠|  |  |  |  |  |5+S ,12~21 hcp , no 5H|  
 |1♠|1N|  |  |  |  |6~12 pts, *1 round force*, opener must call , no 4 card support, not a game hand |  
 |1♠|1N|2m|  |  |  |3+m and continue call|  
 |1♠|1N|2m|2♠|  |  |6~9 pts|  
@@ -67,8 +70,12 @@
 
 |N|S|N|S|N|S|Comment|
 |--|--|--|--|--|--|--|
-|1N|  |  |  |  |  | no 5+ card major,15~17 hcp,MAX one doubleton even no block, no singleton,  |
-|2N|  |  |  |  |  | no 5+ card major,19~21 hcp,MAX one doubleton even no block, no singleton,  |
+|1N|  |  |  |  |  | 15~17 hcp,MAX one doubleton even no block, no singleton,  |
+|2N|  |  |  |  |  | 19~21 hcp,MAX one doubleton even no block, no singleton,  |
+|2N|3♣|  |  |  |  | stayman|
+|2N|3♦|  |  |  |  | jacoby xfer to H|
+|2N|3♥|  |  |  |  | jacoby xfer to S|
+|2N|4♣|  |  |  |  | Gerber , (Ace asking)|
 |1N|2♣ |  |  |  |  | stayman asking for 4 card major |
 |1N|2♣ |2♦|  |  |  | denies 4M|
 |1N|2♣ |2♦|2♥|  |  | 4H,4S may be |
@@ -119,6 +126,43 @@
 |1♦|3♦|  |  |  |  | 5~9 dummy pts, 4+D|  
 |1♦|3N|  |  |  |  | 13~15 pts/ balanced|
   
+## Slam bidding: 
+
+### Gerber over any *NT*
+|call|response|meaning| 
+|--|--|--|
+|4♣||asking for A|
+|4♣|4♦|0/4 A|
+|4♣|4♥|1 A|
+|4♣|4♠|2 A|
+|4♣|4N|3 A|
+|5♣||asking for K|
+|5♣|5♦|0/4 K|
+|5♣|5♥|1 K|
+|5♣|5♠|2 K|
+|5♣|5N|3 K|
+  
+  
+### Blackwood convention
+Dont use when
+* holding 2 or more cards with no A/K (xx,Qx,jx)
+* holding void
+
+
+|call|response|meaning| 
+|--|--|--|
+|4N||asking for A|
+|4N|5♣|0/4 A|
+|4N|5♦|1 A|
+|4N|5♥|2 A|
+|4N|5♠|3 A|
+|5N||asking for K|
+|5N|6♣|0/4 K|
+|5N|6♦|1 K|
+|5N|6♥|2 K|
+|5N|6♠|3 K|
+
+
 ## Opening with weak hand:
     - if you are one of the first 2 caller. dont call 2 with good hand. 
     - open 2 of a suit other than clubs with 7~11 points with 6 card of the suit. only applies for first 2 caller. 
@@ -127,6 +171,7 @@
 
 ## General Notes: 
     - redouble denies 3 card support
+    - When defending at no trump NEVER lead your partner’s bid suit if you only have a singleton in his/her suit!!
 
 - Calculate short suit points  
     - doubleton : 1 pt each
