@@ -12,13 +12,17 @@
   [score](#score)  
   [notes](#notes)  
   [weak 2 open](#wk2)  
+  [4th Suite forcing](#fsf)  
 
   
 <a name="2♣"/>
 
 ## Opening 2♣:  [△](#index)
 
-    - Must have 21+ HCP and Partners must respond if oponent doesnt intercept. 
+    - Must have 23+ HCP (balance)   
+    - Unbalance hand must have game possibility  
+    - Partners must respond if oponent doesnt intercept.  
+    - [acol](https://bridgebum.com/acol_2c.php)  
     
 |N|S|N|S|N|S|Comment|
 |--|--|--|--|--|--|--|
@@ -29,6 +33,7 @@
 |2♣|3♣|  |  |  |  | 7+pts,5+C|
 |2♣|3♦|  |  |  |  | 7+pts,5+C|
 |2♣|2N|  |  |  |  | no 5 card suit|
+|2♣|3N|  |  |  |  | 10~12 HCP|
 
 
 
@@ -43,13 +48,13 @@
 |N |S |N |S |N |S|Comment|  
 |--|--|--|--|--|--|--|  
 |1♥|  |  |  |  |  |5+H ,12~21 hcp, can have 5S |  
-|1♠|  |  |  |  |  |4+H ,7+ hcp, no 5S |  
+|1♥|1♠|  |  |  |  |4+S ,7+ hc|  
 |1♥|1N|  |  |  |  |6~12 pts, **1 round force**, opener must call,NO 4 card support, no 4 Spade, not a game hand |  
 |1♥|1N|2m|  |  |  |3+m and continue call|  
 |1♥|1N|2m|2♥|  |  |6~9 pts|  
 |1♥|2m|  |  |  |  |13+dummy pts, **Game forcing**, 4+ card, dont stop until game call |  
-|1♥|3♣|  |  |  |  |7-9 dummy pts, 4H |  
-|1♥|3♦|  |  |  |  |10~12 dummy pts , 4H |  
+|1♥|3♣|  |  |  |  |7-9 dummy pts, 4H [bergen raise](https://bridgebum.com/bromad.php)  |  
+|1♥|3♦|  |  |  |  |10~12 dummy pts , 4H [bergen raise](https://bridgebum.com/bromad.php)  |  
 |1♥|2♥|  |  |  |  |3+ cards, 8-10pts constructive raise |  
 |1♥|3♥|  |  |  |  |0~6 dummy pts 4+H|  
 |1♥|2N|  |  |  |  |15+ dummy pts, jacoby 2N , 4H |   
@@ -60,10 +65,10 @@
 |1♥|2N|4♥|  |  |  |signoff, minimum hand |   
 |1♥|2N|3♥|  |  |  |no other bid | 
 |1♥|3N|  |  |  |  |13+ dummy pts, 3H|  
-|1♥|4♣|  |  |  |  |13+ dummy pts,splinter, shortness in C, 4H|  
+|1♥|4♣|  |  |  |  |13+ dummy pts,[splinter](https://bridgebum.com/splinters.php), shortness in C, 4H|  
 |1♥|4♦|  |  |  |  |13+ dummy pts,splinter, shortness in D, 4H|  
 |1♥|3♠|  |  |  |  |13+ dummy pts,splinter, shortness in S, 4H|  
- 
+|PA|1♥|2♣|  |  |  |Drury, 3+ support |  
 
 
 <a name="1♠"/>
@@ -77,11 +82,11 @@
 |1♠|1N|2m|  |  |  |3+m and continue call|  
 |1♠|1N|2m|2♠|  |  |6~9 pts|  
 |1♠|2m|  |  |  |  |13+dummy pts, 12+ pts ,**Game forcing**, 4+ card, dont stop until game call |  
-|1♥|3♣|  |  |  |  |7-9 dummy pts, 4S |  
-|1♥|3♦|  |  |  |  |10~12 dummy pts , 4S | 
+|1♥|3♣|  |  |  |  |7-9 dummy pts, 4S[bergen raise](https://bridgebum.com/bromad.php) |  
+|1♥|3♦|  |  |  |  |10~12 dummy pts , 4S[bergen raise](https://bridgebum.com/bromad.php) | 
 |1♠|2♥|  |  |  |  |12+ pts, **Game forcing**, 5+ card, dont stop until game call |  
 |1♠|2♠|  |  |  |  |3+ card,8-10pts constructive raise|  
-|1♠|3♠|  |  |  |  |0~6 dummy pts 4+S|  
+|1♠|3♠|  |  |  |  |0~6 dummy pts 4+S, premptive raise|  
 |1♠|2N|  |  |  |  |15+ dummy pts, jacoby 2N , 4S|  
 |1♠|2N|4m|  |  |  |5+m,1st priority/2N  |   
 |1♠|2N|4♥|  |  |  |5+H |   
@@ -90,10 +95,10 @@
 |1♠|2N|4♠|  |  |  |signoff, minimum hand |   
 |1♠|2N|3♠|  |  |  |no other bid |   
 |1♠|3N|  |  |  |  |13+ dummy pts, 3S|  
-|1♠|4♣|  |  |  |  |13+ dummy pts, splinter, shortness in C, 4S|  
+|1♠|4♣|  |  |  |  |13+ dummy pts, [splinter](https://bridgebum.com/splinters.php), shortness in C, 4S|  
 |1♠|4♦|  |  |  |  |13+ dummy pts, splinter, shortness in D, 4S|  
 |1♠|4♥|  |  |  |  |13+ dummy pts, splinter, shortness in H, 4S|  
-
+|PA|1♠|2♣|  |  |  |Drury, 3+ support |  
 
 <a name="1N"/>
 ## Opening No Trump:  [△](#index)
@@ -145,7 +150,7 @@
 |1♣| |  |  |  |  | 3+C ,12~21 hcp, no 4M/5D, C>=D|
 |1♣|1♥|  |  |  |  | 4+H, 6+pts|
 |1♣|1♠|  |  |  |  | 4+S, 6+pts|
-|1♣|1N|  |  |  |  | no 4M , 8~10pts|
+|1♣|1N|  |  |  |  | no 4M , 7~9pts|
 |1♣|2♣|  |  |  |  | 13+ dummy pts, 4+C|
 |1♣|2M|  |  |  |  | weak jump shift|
 |1♣|2N|  |  |  |  | 10~12 pts/ balanced. not jacoby 2N|
@@ -161,14 +166,37 @@
 |1♦| |  |  |  |  | 3+D/mostly 4+D |  
 |1♦|1♥|  |  |  |  | 4+H, 6+pts|
 |1♦|1♠|  |  |  |  | 4+S, 6+pts|
-|1♦|1N|  |  |  |  | no 4M , 8~10pts|
+|1♦|1N|  |  |  |  | no 4M , 7~9 pts|
 |1♦|2♣|  |  |  |  | 5~12 dummy pts, 6+C|
 |1♦|2♦|  |  |  |  | 13+ dummy pts, 4+D|
 |1♦|2M|  |  |  |  | weak jump shift|
 |1♦|2N|  |  |  |  | 10~12 pts/ balanced. not jacoby 2N|
 |1♦|3♦|  |  |  |  | 5~9 dummy pts, 4+D|  
 |1♦|3N|  |  |  |  | 13~15 pts/ balanced|
-   
+
+<a name="fsf">
+## Fourth suite Forcing:  [△](#index)
+  
+  
+  - no intercept
+  - no takeout double 
+  - 4th suite is not lvl 1
+  - typically applies with minor opening (not a 2 over 1)
+  - opener doesnt reverse 
+
+  
+|N|S|N|S|N|S|Comment|
+|--|--|--|--|--|--|--|
+|1♦|1♠|2♣|2♥|  |  | H is 4th suite |  
+|1♦|1♠|2♣|2♥|2♠|  | 3+S  |  
+|1♦|1♠|2♣|2♥|2♦|  | D is long, 6-4 or 5-5 kind of |  
+|1♦|1♠|2♣|2♥|2N|  | Block H /4th suite |  
+|1♣|1♥|1♠|2♦|  |  | D is 4th suite |  
+|1♣|1♥|1♠|2♦|  |  | D is 4th suite |  
+|1♣|1♥|1♠|2♦|  |  | D is 4th suite |  
+|1♣|1♥|1♠|2♦|  |  | D is 4th suite |  
+
+
 <a name="slam"/>    
 ## Slam bidding:  [△](#index)
 
@@ -193,6 +221,7 @@
 Dont use when
 * holding 2 or more cards with no A/K (xx,Qx,jx)
 * holding void
+* 4NT is Blackwood if your side has never bid notrump naturally or if a major suit is agreed. 
 
 
 |call|response|meaning| 
@@ -221,13 +250,66 @@ Dont use when
 ## General Notes:  [△](#index)
     - redouble denies 3 card support
     - When defending at no trump NEVER lead your partner’s bid suit if you only have a singleton in his/her suit!!
+      
+### reverse
+    - **reverse: ** skipping the second bid and go beyond 1♣-1X-2X, 1♦-1X-2♥♠, 1♥-1X-2♠
+    - it requires a strong imbalance hand.  
+    - it is a forcing call.  
+    - very useful to notify partner about the strength. 
+    - jump raise partners first/second suite. 
+    - respond to 3N with 3rd suite block. 
+    - [reverse bids](https://bridgebum.com/reverse_bids.php)  
 
+### cue bidding / unusal 2N
+    - no min point requires
+    - typically good for weak / very strong. 
+    - [cue biding](https://bridgebum.com/michaels_cuebid.php)  
+    - [2N](https://bridgebum.com/unusual_2nt.php)
+    - must not pass
+      
+|opponent|call open|meaning| 
+|--|--|--|
+|(1♣)|2♣|5+H and 5+S |
+|(1♦)|2♦|5+H and 5+S|
+|(1♥)|2♥|5+S and 5+m/respond 2N to ask m|
+|(1♠)|2♠|5+H and 5+m/respond 2N to ask m|
+|(1♣)|2N|5+H and 5+D  |
+|(1♦)|2N|5+H and 5+C|
+|(1♥)|2N|5+m both|
+|(1♠)|2N|5+m both|
+    
 - Calculate short suit points  
     - doubleton : 1 pt each
     - singleton :  2 pt each/ 3pt if 4+ trump
     - void : number of trumps
-- dummy points = HCP + short suit points
+- dummy points = HCP + short suit points  
+
+### drury 
     
+    - partner calls major after a pass 
+    - 2♣ -> 3 card support with 10~ pts  
+
+
+### Astro 
+  
+  - must respond for m
+  - [Astro](https://bridgebum.com/astro.php)  
+
+|opponent|call open|response|meaning| 
+|--|--|--|--|
+|(1N)|2♣||H+m 5-4 / 4-5 10+pts |
+|(1N)|2♣|2♦|denies H, prefered m|
+|(1N)|2♣|2♥|sign off|
+|(1N)|2♣|2♠|6+S|
+|(1N)|2♣|2N|12+pts , forcing to minor|
+|(1N)|2♦||S+m 5-4 / 4-5 10+ pts|
+|(1N)|2♦|2♥|denies S, prefered m|
+|(1N)|2♦|2♠|sign off|
+|(1N)|2♦|2N|12+pts , forcing to minor|
+|(1N)|2♥||5+H 10+pts|
+|(1N)|2♠||5+S 10+pts|
+
+
 <a name="score"/>
    
 ## Scoring  [△](#index)
