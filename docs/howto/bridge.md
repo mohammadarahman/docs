@@ -47,7 +47,7 @@
 
 |N |S |N |S |N |S|Comment|  
 |--|--|--|--|--|--|--|  
-|1♥|  |  |  |  |  |5+H ,12~21 hcp, can have 5S |  
+|1♥|  |  |  |  |  |5+H ,12~21 hcp, can not have 5S |  
 |1♥|1♠|  |  |  |  |4+S ,7+ hc|  
 |1♥|1N|  |  |  |  |6~12 pts, **1 round force**, opener must call,NO 4 card support, no 4 Spade, not a game hand |  
 |1♥|1N|2m|  |  |  |3+m and continue call|  
@@ -77,7 +77,7 @@
   
 |N|S|N|S|N|S|Comment|  
 |--|--|--|--|--|--|--|  
-|1♠|  |  |  |  |  |5+S ,12~21 hcp , no 5H|  
+|1♠|  |  |  |  |  |5+S ,12~21 hcp , can have 5H|  
 |1♠|1N|  |  |  |  |6~12 pts, **1 round force**, opener must call , no 4 card support, not a game hand |  
 |1♠|1N|2m|  |  |  |3+m and continue call|  
 |1♠|1N|2m|2♠|  |  |6~9 pts|  
