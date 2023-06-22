@@ -19,7 +19,7 @@
 
 ## Opening 2♣:  [△](#index)
 
-    - Must have 23+ HCP (balance)   
+    - Must have 22+ HCP (balance)   
     - Unbalance hand must have game possibility  
     - Partners must respond if oponent doesnt intercept.  
     - [acol](https://bridgebum.com/acol_2c.php)  
@@ -28,12 +28,15 @@
 |--|--|--|--|--|--|--|
 |2♣|  |  |  |  |  | 22+ hcp |
 |2♣|2♦|  |  |  |  | <8 pts |
-|2♣|2♥|  |  |  |  | 7+pts, 5+H|
-|2♣|2♠|  |  |  |  | 7+pts,5+S|
+|2♣|2♥|  |  |  |  | 5+H|
+|2♣|2♠|  |  |  |  | 5+S|
+|2♣|2x|2N|  |  |  | 23-24 pts,balanced|
+|2♣|2N|  |  |  |  | 8-10 pts ,no 5 card suit|
+|2♣|2x|3N|  |  |  | 25-27 pts,balanced|
 |2♣|3♣|  |  |  |  | 7+pts,5+C|
 |2♣|3♦|  |  |  |  | 7+pts,5+C|
-|2♣|2N|  |  |  |  | no 5 card suit|
-|2♣|3N|  |  |  |  | 10~12 HCP|
+|2♣|3x|3N|  |  |  | 25-27 pts,balanced|
+|2♣|3N|  |  |  |  | 10~12 HCP, LS opportunity|
 
 
 
@@ -51,16 +54,18 @@
 |1♥|1♠|  |  |  |  |4+S ,7+ hc|  
 |1♥|1N|  |  |  |  |6~12 pts, **1 round force**, opener must call,NO 4 card support, no 4 Spade, not a game hand |  
 |1♥|1N|2m|  |  |  |3+m and continue call|  
-|1♥|1N|2m|2♥|  |  |6~9 pts|  
-|1♥|2m|  |  |  |  |13+dummy pts, **Game forcing**, 4+ card, dont stop until game call |  
+|1♥|1N|2m|2♥|  |  |6~9 pts ?how many support|  
+|1♥|2m|  |  |  |  |13+dummy pts, **Game forcing**, 4+ card on m, dont stop until game call |  
 |1♥|3♣|  |  |  |  |7-9 dummy pts, 4H [bergen raise](https://bridgebum.com/bromad.php)  |  
 |1♥|3♦|  |  |  |  |10~12 dummy pts , 4H [bergen raise](https://bridgebum.com/bromad.php)  |  
 |1♥|2♥|  |  |  |  |3+ cards, 8-10pts constructive raise |  
 |1♥|3♥|  |  |  |  |0~6 dummy pts 4+H|  
-|1♥|2N|  |  |  |  |15+ dummy pts, jacoby 2N , 4H |   
+|1♥|3♠|  |  |  |  |13+ dummy pts,[ambiguis splinter](https://www.acblunit390.org/Simon/ambigsplinter.htm) , 4+ card, not balance hand |  
+|1♥|3♠|3N|  |  |  |artificial relay/ asking for singleton/void|  
+|1♥|2N|  |  |  |  |15+ dummy pts, jacoby 2N , 4H,balanced |   
 |1♥|2N|4m|  |  |  |5+m,1st priority/2N  |   
 |1♥|2N|4♠|  |  |  |5+S|   
-|1♥|2N|3X|  |  |  |singleton / void on X,2nd priority/2N|   
+|1♥|2N|3X|  |  |  |singleton / void/doubleton on X,2nd priority/2N|   
 |1♥|2N|3N|  |  |  |14~15 pts, balance,3rd priority/2N|   
 |1♥|2N|4♥|  |  |  |signoff, minimum hand |   
 |1♥|2N|3♥|  |  |  |no other bid | 
@@ -68,7 +73,7 @@
 |1♥|4♣|  |  |  |  |13+ dummy pts,[splinter](https://bridgebum.com/splinters.php), shortness in C, 4H|  
 |1♥|4♦|  |  |  |  |13+ dummy pts,splinter, shortness in D, 4H|  
 |1♥|3♠|  |  |  |  |13+ dummy pts,splinter, shortness in S, 4H|  
-|PA|1♥|2♣|  |  |  |Drury, 3+ support |  
+|PA|1♥|2♣|  |  |  |Drury, 3+ support (10~11 pts) |  
 
 
 <a name="1♠"/>
@@ -81,16 +86,18 @@
 |1♠|1N|  |  |  |  |6~12 pts, **1 round force**, opener must call , no 4 card support, not a game hand |  
 |1♠|1N|2m|  |  |  |3+m and continue call|  
 |1♠|1N|2m|2♠|  |  |6~9 pts|  
-|1♠|2m|  |  |  |  |13+dummy pts, 12+ pts ,**Game forcing**, 4+ card, dont stop until game call |  
+|1♠|2m|  |  |  |  |13+dummy pts, 12+ pts ,**Game forcing**, 4+ card on m, dont stop until game call |  
 |1♥|3♣|  |  |  |  |7-9 dummy pts, 4S[bergen raise](https://bridgebum.com/bromad.php) |  
 |1♥|3♦|  |  |  |  |10~12 dummy pts , 4S[bergen raise](https://bridgebum.com/bromad.php) | 
 |1♠|2♥|  |  |  |  |12+ pts, **Game forcing**, 5+ card, dont stop until game call |  
+|1♠|3♥|  |  |  |  |13+ dummy pts,[ambiguis splinter](https://www.acblunit390.org/Simon/ambigsplinter.htm) , 4+ card, not balance hand |  
+|1♠|3♥|3N|  |  |  |asking for singleton/void|  
 |1♠|2♠|  |  |  |  |3+ card,8-10pts constructive raise|  
 |1♠|3♠|  |  |  |  |0~6 dummy pts 4+S, premptive raise|  
-|1♠|2N|  |  |  |  |15+ dummy pts, jacoby 2N , 4S|  
+|1♠|2N|  |  |  |  |13+ dummy pts,11+HCP, jacoby 2N , 4S,balance|  
 |1♠|2N|4m|  |  |  |5+m,1st priority/2N  |   
 |1♠|2N|4♥|  |  |  |5+H |   
-|1♠|2N|3X|  |  |  |singleton / void on X,2nd priority/2N|   
+|1♠|2N|3X|  |  |  |singleton / void /doubleton on X,2nd priority/2N|   
 |1♠|2N|3N|  |  |  |14~15 pts, balance,3rd priority/2N|   
 |1♠|2N|4♠|  |  |  |signoff, minimum hand |   
 |1♠|2N|3♠|  |  |  |no other bid |   
@@ -105,7 +112,7 @@
     - you must have balance card with only one doubleton. 
     - No 5 card major
     - 15-17 HCP for 1N
-    - 20-22 HCP for 2N 
+    - 19-21 HCP for 2N 
     - stayman applies with no interference  
     
 
@@ -130,16 +137,18 @@
 |1N|2♣ |2♠|  |  |  | 4S, denies 4H|
 |1N|2♣ |2♠|3♣|  |  | game forcing,6C |
 |1N|2♣ |2♠|3♦|  |  | game forcing,6D |
-|1N|2♦|  |  |  |  | 5+ hearts card(jacoby xfer) |
+|1N|2♦|  |  |  |  | 5+ hearts card(jacoby xfer) even with low points|
 |1N|2♦|2♥  |  |  |  | accept xfer |
-|1N|2♥| |  |  |  | 5+ Spade card(jacoby xfer) |
+|1N|2♥| |  |  |  | 5+ Spade card(jacoby xfer) even with low points|
 |1N|2♥|2♠  |  |  |  | accept xfer|
 |1N|2♠|  |  |  |  | transfer to C|
 |1N|2N|  |  |  |  | transfer to D / No Trump|
-  
+
+[transfer](https://www.ateacherfirst.com/wp-content/uploads/2021/04/Lesson-2-Responding-Using-Stayman-and-Jacoby.pdf)  
   
 ## Opening Minor:  [△](#index)
     - must have 3 card minor with 12~21 HCP(most of the time 4 dice minimum and 3 clubs minimum) 
+
 
   
 <a name="1♣"/>   
@@ -200,6 +209,7 @@
 <a name="slam"/>    
 ## Slam bidding:  [△](#index)
 
+
 ### Gerber over any *NT*  
 
 
@@ -250,7 +260,17 @@ Dont use when
 ## General Notes:  [△](#index)
     - redouble denies 3 card support
     - When defending at no trump NEVER lead your partner’s bid suit if you only have a singleton in his/her suit!!
+    - Never Put Down an 8-Card Suit in Dummy
       
+### double
+  - 1m -pass-1M-2♦-D - shows 3 card support
+  - 1m -pass-1M-D-RD - shows 3 card support
+  - 1X - D - 2X - D [X-major] - no support for X. 
+  - 1♣ - D - 1♥ - D - 4 card H support
+  - 1♦ - 1NT - 2♦ - D - Xfer or penalty
+  - 1♣ - 1M - 2♣ - D - M support / other two suit
+  - 1♠ - 2♥ - 2♠ - 3♥ - D -asking for game call. 
+
 ### reverse
     - **reverse: ** skipping the second bid and go beyond 1♣-1X-2X, 1♦-1X-2♥♠, 1♥-1X-2♠
     - it requires a strong imbalance hand.  
