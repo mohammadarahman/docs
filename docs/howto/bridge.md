@@ -284,7 +284,8 @@ Dont use when
     - no min point requires
     - typically good for weak / very strong. 
     - [cue biding](https://bridgebum.com/michaels_cuebid.php)  
-    - [2N](https://bridgebum.com/unusual_2nt.php)
+    - [2N](https://bridgebum.com/unusual_2nt.php)  
+    - [ls/gs](https://www.bridgewebs.com/alton/Cue%20Bidding.pdf)  
     - must not pass
       
 |opponent|call open|meaning| 
@@ -297,6 +298,35 @@ Dont use when
 |(1♦)|2N|5+H and 5+C|
 |(1♥)|2N|5+m both|
 |(1♠)|2N|5+m both|
+|(1N)|[Aspro](https://www.acblunit390.org/Simon/aspro.htm) start|
+|(1N)|Double|15+HCP|
+|(1N)|2♣|hearts + another suite (5-4 /4-5)12+ points|
+|(1N)|2♦|Spade + minor (5-4 /4-5)12+points|
+|(1N)|2♥|natural|
+|(1N)|2♠|natural|
+|(1N)|2N|clubs and spade 6-5 / 5-6|
+|(1N)|3♣|minors 6-5/5-6|
+|(1N)|3♦|diamonds and hearts 6-5/5-6|
+|(1N)|3♥|majors 6-5/5-6|
+|(1N)|[Aspro](https://www.acblunit390.org/Simon/aspro.htm) end|
+|(1N)|[Astro](https://www.acblunit390.org/Simon/astro.htm) start|
+|(1N)|2♣|hearts + minor 12+ points|
+|(1N)-2♣|pass|long clubs / signoff|
+|(1N)-2♣|2♦|denies hearts|
+|(1N)-2♣|2♥|signoff|
+|(1N)-2♣|2♠|long suite,signoff|
+|(1N)-2♣|2N|one round force/ ask bid 2nd suite 10+ points|
+|(1N)-2♣|2♥|invitational|
+|(1N)|2♦|spade + another 12+ points|
+|(1N)-2♦|pass|long diamonds / signoff|
+|(1N)-2♦|2♥|denies spade / artificial relay|
+|(1N)-2♦|2♠|signoff|
+|(1N)-2♦|2N|one round force/ ask bid 2nd suite 10+ points|
+|(1N)-2♦|3♣|long clubs / signoff|
+|(1N)-2♦|3♠|invitational|
+|(1N)|[Astro](https://www.acblunit390.org/Simon/astro.htm) end|
+
+
     
 - Calculate short suit points  
     - doubleton : 1 pt each
