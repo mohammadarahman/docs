@@ -59,6 +59,10 @@
 |1♥|3♣|  |  |  |  |7-9 dummy pts, 4H [bergen raise](https://bridgebum.com/bromad.php)  |  
 |1♥|3♦|  |  |  |  |10~12 dummy pts , 4H [bergen raise](https://bridgebum.com/bromad.php)  |  
 |1♥|2♥|  |  |  |  |3+ cards, 8-10pts constructive raise |  
+|1♥|2♥|2♠|  |  |  |https://www.bridgewebs.com/ocala/Game%20Trys.pdf|
+|1♥|2♥|2♠|3m|  |  |shortness in m|
+|1♥|2♥|2♠|2N|  |  |shortness in Spade|
+|1♥|2♥|2♠|3♥|  |  |minimum, 4333 hand|
 |1♥|3♥|  |  |  |  |0~6 dummy pts 4+H|  
 |1♥|3♠|  |  |  |  |13+ dummy pts,[ambiguis splinter](https://www.acblunit390.org/Simon/ambigsplinter.htm) , 4+ card, not balance hand |  
 |1♥|3♠|3N|  |  |  |artificial relay/ asking for singleton/void|  
@@ -93,6 +97,10 @@
 |1♠|3♥|  |  |  |  |13+ dummy pts,[ambiguis splinter](https://www.acblunit390.org/Simon/ambigsplinter.htm) , 4+ card, not balance hand |  
 |1♠|3♥|3N|  |  |  |asking for singleton/void|  
 |1♠|2♠|  |  |  |  |3+ card,8-10pts constructive raise|  
+|1♠|2♠|2N|  |  |  |https://www.bridgewebs.com/ocala/Game%20Trys.pdf|
+|1♠|2♠|2N|3m|  |  |shortness in m|
+|1♠|2♠|2N|3♥|  |  |shortness in heart|
+|1♠|2♠|2N|3♠|  |  |4333 min hand|
 |1♠|3♠|  |  |  |  |0~6 dummy pts 4+S, premptive raise|  
 |1♠|2N|  |  |  |  |13+ dummy pts,11+HCP, jacoby 2N , 4S,balance|  
 |1♠|2N|4m|  |  |  |5+m,1st priority/2N  |   
@@ -107,6 +115,17 @@
 |1♠|4♥|  |  |  |  |13+ dummy pts, splinter, shortness in H, 4S|  
 |PA|1♠|2♣|  |  |  |Drury, 3+ support |  
 
+### oponent intercept on major  [△](#index)
+ 
+  [Bromad](https://www.bridgebum.com/bromad.php)  
+  
+|N|E|S|W|N|S|Comment|  
+|--|--|--|--|--|--|--|  
+|1M|D|2♣|  |  |  | 3 card support 7~10 pts| 
+|1M|D|2♦|  |  |  | 3 card support 10+ pts| 
+|1M|D|2M|  |  |  | 3 card support 0-6 pts (preemptiveraise)| 
+|1M|D|2N|  |  |  | preemptive clubs or diamonds (forcing)| 
+  
 <a name="1N"/>
 ## Opening No Trump:  [△](#index)
     - you must have balance card with only one doubleton. 
@@ -114,7 +133,8 @@
     - 15-17 HCP for 1N
     - 19-21 HCP for 2N 
     - stayman applies with no interference  
-    
+    - weak 1N is great for defence [weak1n (http://www.bridgesights.com/hondobridge/WeakNTPart1.pdf)   
+    - [1NT](https://www.bridgebum.com/1nt_15_17.php)  
 
 |N|S|N|S|N|S|Comment|
 |--|--|--|--|--|--|--|
@@ -141,8 +161,11 @@
 |1N|2♦|2♥  |  |  |  | accept xfer |
 |1N|2♥| |  |  |  | 5+ Spade card(jacoby xfer) even with low points|
 |1N|2♥|2♠  |  |  |  | accept xfer|
-|1N|2♠|  |  |  |  | transfer to C|
-|1N|2N|  |  |  |  | transfer to D / No Trump|
+|1N|2♠|  |  |  |  | artificial. weak 6+ minor (respond 3♣/correct if needed to 3♦)|
+|1N|3♣|  |  |  |  | 6+clubs, 7-8 HCP|
+|1N|3♦|  |  |  |  | 6+dices, 7-8 HCP|
+|1N|2N|  |  |  |  | Invite 3NT. Shows 8-9 HCP and balanced.Denies a 4-card major unless holding 4-3-3-3 shape.|
+
 
 [transfer](https://www.ateacherfirst.com/wp-content/uploads/2021/04/Lesson-2-Responding-Using-Stayman-and-Jacoby.pdf)  
   
@@ -160,7 +183,8 @@
 |1♣|1♥|  |  |  |  | 4+H, 6+pts|
 |1♣|1♠|  |  |  |  | 4+S, 6+pts|
 |1♣|1N|  |  |  |  | no 4M , 7~9pts|
-|1♣|2♣|  |  |  |  | 13+ dummy pts, 4+C|
+|1♣|2♣|  |  |  |  | 13+ dummy pts, 5+C|
+|1♣|2♦|  |  |  |  | criss cross, limit raise no 4 major|
 |1♣|2M|  |  |  |  | weak jump shift|
 |1♣|2N|  |  |  |  | 10~12 pts/ balanced. not jacoby 2N|
 |1♣|3♣|  |  |  |  | 5~9 dummy pts, 4+C|  
@@ -177,11 +201,13 @@
 |1♦|1♠|  |  |  |  | 4+S, 6+pts|
 |1♦|1N|  |  |  |  | no 4M , 7~9 pts|
 |1♦|2♣|  |  |  |  | 5~12 dummy pts, 6+C|
-|1♦|2♦|  |  |  |  | 13+ dummy pts, 4+D|
+|1♦|2♦|  |  |  |  | 13+ dummy pts, 5+D|
 |1♦|2M|  |  |  |  | weak jump shift|
 |1♦|2N|  |  |  |  | 10~12 pts/ balanced. not jacoby 2N|
+|1♦|3♣|  |  |  |  | criss cross, limit raise value|  
 |1♦|3♦|  |  |  |  | 5~9 dummy pts, 4+D|  
 |1♦|3N|  |  |  |  | 13~15 pts/ balanced|
+
 
 <a name="fsf">
 ## Fourth suite Forcing:  [△](#index)
@@ -261,6 +287,13 @@ Dont use when
     - redouble denies 3 card support
     - When defending at no trump NEVER lead your partner’s bid suit if you only have a singleton in his/her suit!!
     - Never Put Down an 8-Card Suit in Dummy
+
+### point calculation     
+- Calculate short suit points  
+    - doubleton : 1 pt each
+    - singleton :  2 pt each/ 3pt if 4+ trump
+    - void : number of trumps
+- dummy points = HCP + short suit points  
       
 ### double
   - 1m -pass-1M-2♦-D - shows 3 card support
@@ -280,13 +313,21 @@ Dont use when
     - respond to 3N with 3rd suite block. 
     - [reverse bids](https://bridgebum.com/reverse_bids.php)  
 
-### cue bidding / unusal 2N
+
+
+### drury 
+    
+    - partner calls major after a pass 
+    - 2♣ -> 3 card support with 10~ pts  
+
+### defence of 1 level call: cue bidding / unusal 2N
     - no min point requires
     - typically good for weak / very strong. 
     - [cue biding](https://bridgebum.com/michaels_cuebid.php)  
     - [2N](https://bridgebum.com/unusual_2nt.php)  
     - [ls/gs](https://www.bridgewebs.com/alton/Cue%20Bidding.pdf)  
     - must not pass
+    - for 2N over call with 20+ points call double first and then 2N. 
       
 |opponent|call open|meaning| 
 |--|--|--|
@@ -294,70 +335,39 @@ Dont use when
 |(1♦)|2♦|5+H and 5+S|
 |(1♥)|2♥|5+S and 5+m/respond 2N to ask m|
 |(1♠)|2♠|5+H and 5+m/respond 2N to ask m|
+|(1♣)|2N|two lowest unbid suit  |
 |(1♣)|2N|5+H and 5+D  |
 |(1♦)|2N|5+H and 5+C|
 |(1♥)|2N|5+m both|
 |(1♠)|2N|5+m both|
-|(1N)|[Aspro](https://www.acblunit390.org/Simon/aspro.htm) start|
-|(1N)|Double|15+HCP|
-|(1N)|2♣|hearts + another suite (5-4 /4-5)12+ points|
-|(1N)|2♦|Spade + minor (5-4 /4-5)12+points|
-|(1N)|2♥|natural|
-|(1N)|2♠|natural|
-|(1N)|2N|clubs and spade 6-5 / 5-6|
-|(1N)|3♣|minors 6-5/5-6|
-|(1N)|3♦|diamonds and hearts 6-5/5-6|
-|(1N)|3♥|majors 6-5/5-6|
-|(1N)|[Aspro](https://www.acblunit390.org/Simon/aspro.htm) end|
-|(1N)|[Astro](https://www.acblunit390.org/Simon/astro.htm) start|
-|(1N)|2♣|hearts + minor 12+ points|
-|(1N)-2♣|pass|long clubs / signoff|
-|(1N)-2♣|2♦|denies hearts|
-|(1N)-2♣|2♥|signoff|
-|(1N)-2♣|2♠|long suite,signoff|
-|(1N)-2♣|2N|one round force/ ask bid 2nd suite 10+ points|
-|(1N)-2♣|2♥|invitational|
-|(1N)|2♦|spade + another 12+ points|
-|(1N)-2♦|pass|long diamonds / signoff|
-|(1N)-2♦|2♥|denies spade / artificial relay|
-|(1N)-2♦|2♠|signoff|
-|(1N)-2♦|2N|one round force/ ask bid 2nd suite 10+ points|
-|(1N)-2♦|3♣|long clubs / signoff|
-|(1N)-2♦|3♠|invitational|
-|(1N)|[Astro](https://www.acblunit390.org/Simon/astro.htm) end|
 
 
-    
-- Calculate short suit points  
-    - doubleton : 1 pt each
-    - singleton :  2 pt each/ 3pt if 4+ trump
-    - void : number of trumps
-- dummy points = HCP + short suit points  
-
-### drury 
-    
-    - partner calls major after a pass 
-    - 2♣ -> 3 card support with 10~ pts  
-
-
-### Astro 
+### 1N defence
   
   - must respond for m
-  - [Astro](https://bridgebum.com/astro.php)  
+  - [Astro](https://bridgebum.com/astro.php) 
+  - [Aspro](https://www.acblunit390.org/Simon/aspro.htm)  
 
 |opponent|call open|response|meaning| 
 |--|--|--|--|
-|(1N)|2♣||H+m 5-4 / 4-5 10+pts |
+|(1N)|double||15+ HCP|
+|(1N)|2♣||Hearts + minor 5-4 / 4-5 10+pts |
 |(1N)|2♣|2♦|denies H, prefered m|
 |(1N)|2♣|2♥|sign off|
 |(1N)|2♣|2♠|6+S|
-|(1N)|2♣|2N|12+pts , forcing to minor|
-|(1N)|2♦||S+m 5-4 / 4-5 10+ pts|
+|(1N)|2♣|2N|12+pts , forcing one round to minor|
+|(1N)|2♦||Spade+ other 5-4 / 4-5 10+ pts|
 |(1N)|2♦|2♥|denies S, prefered m|
 |(1N)|2♦|2♠|sign off|
 |(1N)|2♦|2N|12+pts , forcing to minor|
 |(1N)|2♥||5+H 10+pts|
 |(1N)|2♠||5+S 10+pts|
+|(1N)|2N||clubs+spades (6/5 5/6) 10+pts|
+|(1N)|3♣||clubs+dice (6/5 5/6) 10+pts|
+|(1N)|3♦||hearts+dice (6/5 5/6) 10+pts|
+|(1N)|3♥||hearts+spade (6/5 5/6) 10+pts|
+
+
 
 
 <a name="score"/>
