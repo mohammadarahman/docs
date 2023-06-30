@@ -43,56 +43,71 @@
     
 ## Opening Major:
     - Must have 5 card and must have 12~21 HCP  
+    - [BROMAD](https://bridgebum.com/bromad.php):
+        * redouble denies 3 card support (10+ pts) 
+        * 2♣ - 8-9 dummy points 3 card support
+        * 2♦ - 10-12 3 card support 
+        * 1 level raise preemptive (weak) 
+        * jump raise 4 card support
+    - In general, a splinter bid is a jump in a new suit, shows shortness with support in partner’s bid suit, promises four trumps, and is forcing; suggesting a slam.
     
 <a name="1♥"/>
 ### Hearts  [△](#index)
- 
+ [2 over 1](https://www.bridgehands.com/Conventions/Two_Over_One.htm)
 
 |N |S |N |S |N |S|Comment|  
 |--|--|--|--|--|--|--|  
 |1♥|  |  |  |  |  |5+H ,12~21 hcp, can not have 5S |  
 |1♥|1♠|  |  |  |  |4+S ,7+ hc|  
 |1♥|1N|  |  |  |  |6~12 pts, **1 round force**, opener must call,NO 4 card support, no 4 Spade, not a game hand |  
-|1♥|1N|2m|  |  |  |3+m and continue call|  
+|1♥|1N|2m|  |  |  |3+m and continue call (12~18 HCP)|  
 |1♥|1N|2m|2♥|  |  |6~9 pts ?how many support|  
+|1♥|1N|2♥||  |  |12-15 pts |  
+|1♥|1N|2♠||  |  |17+ pts,4+ spades |  
+|1♥|1N|2N||  |  |17-18 HCP (invitational)|  
+|1♥|1N|3m||  |  |19-21 pts (4+ cards)|  
 |1♥|2m|  |  |  |  |13+dummy pts, **Game forcing**, 4+ card on m, dont stop until game call |  
-|1♥|3♣|  |  |  |  |7-9 dummy pts, 4H [bergen raise](https://bridgebum.com/bromad.php)  |  
-|1♥|3♦|  |  |  |  |10~12 dummy pts , 4H [bergen raise](https://bridgebum.com/bromad.php)  |  
 |1♥|2♥|  |  |  |  |3+ cards, 8-10pts constructive raise |  
 |1♥|2♥|2♠|  |  |  |https://www.bridgewebs.com/ocala/Game%20Trys.pdf|
 |1♥|2♥|2♠|3m|  |  |shortness in m|
 |1♥|2♥|2♠|2N|  |  |shortness in Spade|
 |1♥|2♥|2♠|3♥|  |  |minimum, 4333 hand|
+|1♥|3♣|  |  |  |  |7-9 dummy pts, 4H [bergen raise](https://bridgebum.com/bromad.php)  |  
+|1♥|3♦|  |  |  |  |10~12 dummy pts , 4H [bergen raise](https://bridgebum.com/bromad.php)  |  
 |1♥|3♥|  |  |  |  |0~6 dummy pts 4+H|  
 |1♥|3♠|  |  |  |  |13+ dummy pts,[ambiguis splinter](https://www.acblunit390.org/Simon/ambigsplinter.htm) , 4+ card, not balance hand |  
 |1♥|3♠|3N|  |  |  |artificial relay/ asking for singleton/void|  
 |1♥|2N|  |  |  |  |15+ dummy pts, jacoby 2N , 4H,balanced |   
-|1♥|2N|4m|  |  |  |5+m,1st priority/2N  |   
-|1♥|2N|4♠|  |  |  |5+S|   
-|1♥|2N|3X|  |  |  |singleton / void/doubleton on X,2nd priority/2N|   
-|1♥|2N|3N|  |  |  |14~15 pts, balance,3rd priority/2N|   
+|1♥|2N|4m|  |  |  |5+m,1st priority after 2N |   
+|1♥|2N|4♠|  |  |  |5+S,1st priority after 2N |   
+|1♥|2N|3X|  |  |  |singleton / void/doubleton on X,2nd priority after 2N|   
+|1♥|2N|3N|  |  |  |14~15 pts, balance,3rd priority after 2N|   
 |1♥|2N|4♥|  |  |  |signoff, minimum hand |   
 |1♥|2N|3♥|  |  |  |no other bid | 
-|1♥|3N|  |  |  |  |13+ dummy pts, 3H|  
+|1♥|3N|  |  |  |  |13+ dummy pts, ![#3H](https://placehold.co/15x15/EEE/31343C?font=lato&text=3H) `3H`|  
 |1♥|4♣|  |  |  |  |13+ dummy pts,[splinter](https://bridgebum.com/splinters.php), shortness in C, 4H|  
 |1♥|4♦|  |  |  |  |13+ dummy pts,splinter, shortness in D, 4H|  
 |1♥|3♠|  |  |  |  |13+ dummy pts,splinter, shortness in S, 4H|  
-|PA|1♥|2♣|  |  |  |Drury, 3+ support (10~11 pts) |  
+|PA|1♥|2♣|  |  |  |[Drury](https://www.acblunit390.org/Simon/drury.htm), 3+ support (10~11 pts) |  
 
 
 <a name="1♠"/>
 ### Spades  [△](#index)
-    
+    [2 over 1](https://www.bridgehands.com/Conventions/Two_Over_One.htm)
   
 |N|S|N|S|N|S|Comment|  
 |--|--|--|--|--|--|--|  
 |1♠|  |  |  |  |  |5+S ,12~21 hcp , can have 5H|  
 |1♠|1N|  |  |  |  |6~12 pts, **1 round force**, opener must call , no 4 card support, not a game hand |  
-|1♠|1N|2m|  |  |  |3+m and continue call|  
+|1♠|1N|2m|  |  |  |3+m and continue call(12-15 SP)|  
 |1♠|1N|2m|2♠|  |  |6~9 pts|  
+|1♠|1N|2♥||  |  |12-18 pts,4+H , (12-15 SP)|  
+|1♠|1N|2N||  |  |17-18 HCP (invitational)|  
+|1♠|1N|3m||  |  |19-21 pts (4+ cards)| 
+|1♠|1N|3♥||  |  |19-21 pts (4+ cards)| 
 |1♠|2m|  |  |  |  |13+dummy pts, 12+ pts ,**Game forcing**, 4+ card on m, dont stop until game call |  
-|1♥|3♣|  |  |  |  |7-9 dummy pts, 4S[bergen raise](https://bridgebum.com/bromad.php) |  
-|1♥|3♦|  |  |  |  |10~12 dummy pts , 4S[bergen raise](https://bridgebum.com/bromad.php) | 
+|1♠|3♣|  |  |  |  |7-9 dummy pts, 4S[bergen raise](https://bridgebum.com/bromad.php) |  
+|1♠|3♦|  |  |  |  |10~12 dummy pts , 4S[bergen raise](https://bridgebum.com/bromad.php) | 
 |1♠|2♥|  |  |  |  |12+ pts, **Game forcing**, 5+ card, dont stop until game call |  
 |1♠|3♥|  |  |  |  |13+ dummy pts,[ambiguis splinter](https://www.acblunit390.org/Simon/ambigsplinter.htm) , 4+ card, not balance hand |  
 |1♠|3♥|3N|  |  |  |asking for singleton/void|  
@@ -113,7 +128,7 @@
 |1♠|4♣|  |  |  |  |13+ dummy pts, [splinter](https://bridgebum.com/splinters.php), shortness in C, 4S|  
 |1♠|4♦|  |  |  |  |13+ dummy pts, splinter, shortness in D, 4S|  
 |1♠|4♥|  |  |  |  |13+ dummy pts, splinter, shortness in H, 4S|  
-|PA|1♠|2♣|  |  |  |Drury, 3+ support |  
+|PA|1♠|2♣|  |  |  |[Drury](https://www.acblunit390.org/Simon/drury.htm), 3+ support |  
 
 ### oponent intercept on major  [△](#index)
  
@@ -235,6 +250,7 @@
 <a name="slam"/>    
 ## Slam bidding:  [△](#index)
 
+- [DOPI ROPI DEPO](https://www.acblunit390.org/Simon/dopi-ropi.htm)  
 
 ### Gerber over any *NT*  
 
@@ -287,13 +303,21 @@ Dont use when
     - redouble denies 3 card support
     - When defending at no trump NEVER lead your partner’s bid suit if you only have a singleton in his/her suit!!
     - Never Put Down an 8-Card Suit in Dummy
+    - Never open a balanced 11 point hand
+
+### how to lead  
+  [jack denies top card/ T9 indicates having higher card](https://www.bridgebum.com/jack_denies_ten_implies.php)  
+  AJT5 - lead T
+  KT94 - lead 9
+  lead J denies any top card. 
+  
 
 ### point calculation     
 - Calculate short suit points  
     - doubleton : 1 pt each
     - singleton :  2 pt each/ 3pt if 4+ trump
     - void : number of trumps
-- dummy points = HCP + short suit points  
+    - dummy points = HCP + short suit points  
       
 ### double
   - 1m -pass-1M-2♦-D - shows 3 card support
